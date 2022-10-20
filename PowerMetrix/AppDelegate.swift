@@ -44,6 +44,16 @@ func cpu_image() -> NSImage {
 }
 
 
+func powermetrixVersion() -> String {
+    return Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "4.0"
+}
+func powermetrixBuild() -> String {
+    return Bundle.main.infoDictionary?["CFBundleVersion"] as? String ?? "1"
+}
+func powermetrixFullVersion() -> String {
+    return ((Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "1.0") + " (build " + (Bundle.main.infoDictionary?["CFBundleVersion"] as? String ?? "000") + ")")
+}
+
 
 
 @main

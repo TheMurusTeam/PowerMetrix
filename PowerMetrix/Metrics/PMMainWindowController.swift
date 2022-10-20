@@ -12,6 +12,7 @@ import Cocoa
 class PMMainWindowController: NSWindowController, NSWindowDelegate {
     
     @IBOutlet var aboutWindow: NSWindow!
+    @IBOutlet weak var label_version: NSTextField!
     @IBOutlet weak var cpu_icon: NSImageView!
     @IBOutlet weak var cpu_name_label: NSTextField!
     
@@ -31,6 +32,7 @@ class PMMainWindowController: NSWindowController, NSWindowDelegate {
     override func windowDidLoad() {
         super.windowDidLoad()
         self.window?.level = NSWindow.Level.modalPanel
+        self.label_version.stringValue = "version \(powermetrixFullVersion())"
         self.cpu_icon.image = cpu_image()
         self.cpu_name_label.stringValue = cpu_name.uppercased()
         self.updateGUI()

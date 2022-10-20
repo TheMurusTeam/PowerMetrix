@@ -18,6 +18,7 @@
                 <outlet property="label_media" destination="6Ii-XJ-d73" id="jdV-ja-5hn"/>
                 <outlet property="label_pcpu" destination="gxo-tP-OjO" id="UuD-yj-wQS"/>
                 <outlet property="label_totalbw" destination="o1L-Pm-b5b" id="h8x-eF-vRl"/>
+                <outlet property="label_version" destination="ItU-Md-ipo" id="hOm-tl-j1l"/>
                 <outlet property="ring_ecpu" destination="sYF-fe-I3o" id="3UV-0d-o69"/>
                 <outlet property="ring_gpu" destination="6w1-bN-mc3" id="uvG-zI-Akq"/>
                 <outlet property="ring_media" destination="kDc-cm-Hts" id="Q5B-nD-Wuk"/>
@@ -357,19 +358,19 @@
         <window title="About PowerMetrix" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" id="jap-ku-WYH">
             <windowStyleMask key="styleMask" titled="YES" closable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="140" y="176" width="323" height="238"/>
+            <rect key="contentRect" x="140" y="176" width="323" height="267"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1512" height="944"/>
             <view key="contentView" id="hNG-2U-3N6">
-                <rect key="frame" x="0.0" y="0.0" width="323" height="238"/>
+                <rect key="frame" x="0.0" y="0.0" width="323" height="267"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uYS-qo-m6K">
-                        <rect key="frame" x="134" y="168" width="55" height="55"/>
+                        <rect key="frame" x="134" y="197" width="55" height="55"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="powermetrix" id="zqj-xd-9A6"/>
                     </imageView>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Grf-12-9Zm">
-                        <rect key="frame" x="-2" y="144" width="327" height="16"/>
+                        <rect key="frame" x="-2" y="173" width="327" height="16"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="PowerMetrix" id="jtu-2R-nQo">
                             <font key="font" metaFont="systemBold" size="14"/>
@@ -378,37 +379,49 @@
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sXP-4s-UvP">
-                        <rect key="frame" x="-2" y="20" width="327" height="14"/>
+                        <rect key="frame" x="-2" y="7" width="327" height="14"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="©2022 murus.it - All rights reserved" id="SEg-ot-ald">
                             <font key="font" metaFont="smallSystem"/>
-                            <color key="textColor" name="tertiaryLabelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="textColor" name="secondaryLabelColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ItU-Md-ipo">
-                        <rect key="frame" x="-2" y="122" width="327" height="14"/>
+                        <rect key="frame" x="-2" y="151" width="327" height="14"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="version 1.0" id="Lcd-Ln-dIS">
+                        <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="version" id="Lcd-Ln-dIS">
                             <font key="font" metaFont="smallSystem"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CGA-H8-j3K">
-                        <rect key="frame" x="18" y="62" width="287" height="36"/>
+                        <rect key="frame" x="20" y="44" width="283" height="86"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" borderStyle="border" drawsBackground="YES" id="7oA-x0-cyi">
                             <font key="font" metaFont="system" size="12"/>
                             <string key="title">Code by Hany El Imam and Davide Feroldi
-www.murusfirewall.com</string>
+www.murusfirewall.com
+
+Source code:
+https://github.com/TheMurusTeam/PowerMetrix</string>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YIf-5F-6GY">
+                        <rect key="frame" x="267" y="236" width="38" height="16"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" lineBreakMode="clipping" title="BETA" id="AHm-b8-AUo">
+                            <font key="font" metaFont="systemBold"/>
+                            <color key="textColor" name="systemRedColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
                 </subviews>
             </view>
-            <point key="canvasLocation" x="-52.5" y="-285"/>
+            <point key="canvasLocation" x="-52.5" y="-270.5"/>
         </window>
     </objects>
     <resources>
