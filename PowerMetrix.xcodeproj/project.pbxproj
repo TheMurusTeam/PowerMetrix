@@ -201,7 +201,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1310;
-				LastUpgradeCheck = 1310;
+				LastUpgradeCheck = 1400;
 				TargetAttributes = {
 					3F3FFE5A272C8CE700C5E006 = {
 						CreatedOnToolsVersion = 13.1;
@@ -290,9 +290,10 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 209;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = RNLG254GCK;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "it.murus.powermetrix.helper/it_murus_powermetrix_helper-Info.plist";
@@ -327,9 +328,10 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 209;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = RNLG254GCK;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "it.murus.powermetrix.helper/it_murus_powermetrix_helper-Info.plist";
@@ -392,6 +394,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -453,6 +456,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -479,10 +483,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = PowerMetrix/PowerMetrix.entitlements;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 29;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = RNLG254GCK;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = PowerMetrix/Info.plist;
@@ -506,10 +511,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = PowerMetrix/PowerMetrix.entitlements;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 29;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = RNLG254GCK;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = PowerMetrix/Info.plist;
