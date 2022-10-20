@@ -66,13 +66,15 @@ class PMMainWindowController: NSWindowController, NSWindowDelegate {
             
             // CURRENT VALUES
             
-            var max_bw : Double = 70
-            if cpu_name == "Apple M1 Pro" {
+            var max_bw : Double = 70 // M1
+            if cpu_name == "Apple M2" {
+                max_bw = 100
+            } else if cpu_name == "Apple M1 Pro" {
                 max_bw = 200
             } else if cpu_name == "Apple M1 Max" {
-                max_bw = 200
-            } else if cpu_name == "Apple M1 Ultra" {
                 max_bw = 400
+            } else if cpu_name == "Apple M1 Ultra" {
+                max_bw = 800
             }
             
             if let metrix = metrics.last {
