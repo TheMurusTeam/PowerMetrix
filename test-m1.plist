@@ -1,0 +1,4958 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+<key>is_delta</key><true/>
+<key>elapsed_ns</key><integer>5007836750</integer>
+<key>hw_model</key><string>MacBookAir10,1</string>
+<key>kern_osversion</key><string>20F71</string>
+<key>kern_bootargs</key><string></string>
+<key>kern_boottime</key><integer>1622912558</integer>
+<key>timestamp</key><date>2021-06-05T19:31:21Z</date>
+<key>tasks</key>
+<array>
+<dict>
+<key>pid</key><integer>6033</integer>
+<key>name</key><string>powermetrics</string>
+<key>started_abstime_ns</key><integer>149173430511</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>15536041</integer>
+<key>cputime_ms_per_s</key><real>3.10062</real>
+<key>cputime_sample_ms_per_s</key><real>3.10235</real>
+<key>cputime_userland_ratio</key><real>0.0732866</real>
+<key>intr_wakeups</key><integer>1</integer>
+<key>intr_wakeups_per_s</key><real>0.199576</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>15537375</integer>
+<key>qos_disabled_ms_per_s</key><real>3.10089</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>0</integer>
+<key>qos_background_ms_per_s</key><real>0</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>0</integer>
+<key>qos_default_ms_per_s</key><real>0</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>23.3925</real>
+<key>energy_impact_per_s</key><real>4.66858</real>
+</dict>
+<dict>
+<key>pid</key><integer>137</integer>
+<key>name</key><string>WindowServer</string>
+<key>started_abstime_ns</key><integer>378479767</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>26166958</integer>
+<key>cputime_ms_per_s</key><real>5.2223</real>
+<key>cputime_sample_ms_per_s</key><real>5.2252</real>
+<key>cputime_userland_ratio</key><real>0.470848</real>
+<key>intr_wakeups</key><integer>12</integer>
+<key>intr_wakeups_per_s</key><real>2.39491</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>1</integer>
+  <key>wakeups_per_s</key><real>0.199576</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>25536833</integer>
+<key>qos_disabled_ms_per_s</key><real>5.09654</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>0</integer>
+<key>qos_background_ms_per_s</key><real>0</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>627333</integer>
+<key>qos_default_ms_per_s</key><real>0.125201</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>1.13868</real>
+<key>energy_impact_per_s</key><real>0.227254</real>
+</dict>
+<dict>
+<key>pid</key><integer>0</integer>
+<key>name</key><string>kernel_task</string>
+<key>started_abstime_ns</key><integer>162518262</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>55393583</integer>
+<key>cputime_ms_per_s</key><real>11.0552</real>
+<key>cputime_sample_ms_per_s</key><real>11.0614</real>
+<key>cputime_userland_ratio</key><real>0</real>
+<key>intr_wakeups</key><integer>443</integer>
+<key>intr_wakeups_per_s</key><real>88.4122</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>14</integer>
+  <key>wakeups_per_s</key><real>2.79406</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>3</integer>
+  <key>wakeups_per_s</key><real>0.598728</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>55393583</integer>
+<key>qos_disabled_ms_per_s</key><real>11.0552</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>0</integer>
+<key>qos_background_ms_per_s</key><real>0</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>0</integer>
+<key>qos_default_ms_per_s</key><real>0</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.988247</real>
+<key>energy_impact_per_s</key><real>0.19723</real>
+</dict>
+<dict>
+<key>pid</key><integer>117</integer>
+<key>name</key><string>locationd</string>
+<key>started_abstime_ns</key><integer>370968326</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>7425166</integer>
+<key>cputime_ms_per_s</key><real>1.48188</real>
+<key>cputime_sample_ms_per_s</key><real>1.48271</real>
+<key>cputime_userland_ratio</key><real>0.803024</real>
+<key>intr_wakeups</key><integer>5</integer>
+<key>intr_wakeups_per_s</key><real>0.99788</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>1561666</integer>
+<key>qos_background_ms_per_s</key><real>0.311671</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>578666</integer>
+<key>qos_default_ms_per_s</key><real>0.115488</real>
+<key>qos_user_initiated_ns</key><integer>5284833</integer>
+<key>qos_user_initiated_ms_per_s</key><real>1.05473</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.355664</real>
+<key>energy_impact_per_s</key><real>0.070982</real>
+</dict>
+<dict>
+<key>pid</key><integer>132</integer>
+<key>name</key><string>corebrightnessd</string>
+<key>started_abstime_ns</key><integer>371013346</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>5254833</integer>
+<key>cputime_ms_per_s</key><real>1.04874</real>
+<key>cputime_sample_ms_per_s</key><real>1.04932</real>
+<key>cputime_userland_ratio</key><real>0.537093</real>
+<key>intr_wakeups</key><integer>0</integer>
+<key>intr_wakeups_per_s</key><real>0</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>0</integer>
+<key>qos_background_ms_per_s</key><real>0</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>5254833</integer>
+<key>qos_default_ms_per_s</key><real>1.04874</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.222839</real>
+<key>energy_impact_per_s</key><real>0.0444733</real>
+</dict>
+<dict>
+<key>pid</key><integer>438</integer>
+<key>name</key><string>com.apple.geod</string>
+<key>started_abstime_ns</key><integer>849734812</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>4398250</integer>
+<key>cputime_ms_per_s</key><real>0.877785</real>
+<key>cputime_sample_ms_per_s</key><real>0.878273</real>
+<key>cputime_userland_ratio</key><real>0.666809</real>
+<key>intr_wakeups</key><integer>2</integer>
+<key>intr_wakeups_per_s</key><real>0.399152</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>1301500</integer>
+<key>qos_background_ms_per_s</key><real>0.259748</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>3096750</integer>
+<key>qos_default_ms_per_s</key><real>0.618037</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.219124</real>
+<key>energy_impact_per_s</key><real>0.0437319</real>
+</dict>
+<dict>
+<key>pid</key><integer>744</integer>
+<key>name</key><string>LocationMenu</string>
+<key>started_abstime_ns</key><integer>21207429054</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>4415250</integer>
+<key>cputime_ms_per_s</key><real>0.881178</real>
+<key>cputime_sample_ms_per_s</key><real>0.881668</real>
+<key>cputime_userland_ratio</key><real>0.846885</real>
+<key>intr_wakeups</key><integer>1</integer>
+<key>intr_wakeups_per_s</key><real>0.199576</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>0</integer>
+<key>qos_background_ms_per_s</key><real>0</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>65708</integer>
+<key>qos_default_ms_per_s</key><real>0.0131138</real>
+<key>qos_user_initiated_ns</key><integer>153208</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0.0305767</real>
+<key>qos_user_interactive_ns</key><integer>4196333</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0.837487</real>
+<key>energy_impact</key><real>0.201847</real>
+<key>energy_impact_per_s</key><real>0.0402838</real>
+</dict>
+<dict>
+<key>pid</key><integer>129</integer>
+<key>name</key><string>bluetoothd</string>
+<key>started_abstime_ns</key><integer>371004781</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>6352750</integer>
+<key>cputime_ms_per_s</key><real>1.26786</real>
+<key>cputime_sample_ms_per_s</key><real>1.26856</real>
+<key>cputime_userland_ratio</key><real>0.781879</real>
+<key>intr_wakeups</key><integer>0</integer>
+<key>intr_wakeups_per_s</key><real>0</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>0</integer>
+<key>qos_background_ms_per_s</key><real>0</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>2774458</integer>
+<key>qos_default_ms_per_s</key><real>0.553715</real>
+<key>qos_user_initiated_ns</key><integer>3578291</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0.714141</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.201602</real>
+<key>energy_impact_per_s</key><real>0.0402349</real>
+</dict>
+<dict>
+<key>pid</key><integer>354</integer>
+<key>name</key><string>distnoted</string>
+<key>started_abstime_ns</key><integer>770998119</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>4917708</integer>
+<key>cputime_ms_per_s</key><real>0.981456</real>
+<key>cputime_sample_ms_per_s</key><real>0.982003</real>
+<key>cputime_userland_ratio</key><real>0.948824</real>
+<key>intr_wakeups</key><integer>0</integer>
+<key>intr_wakeups_per_s</key><real>0</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>0</integer>
+<key>qos_background_ms_per_s</key><real>0</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>0</integer>
+<key>qos_default_ms_per_s</key><real>0</real>
+<key>qos_user_initiated_ns</key><integer>4917708</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0.981456</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.187119</real>
+<key>energy_impact_per_s</key><real>0.0373445</real>
+</dict>
+<dict>
+<key>pid</key><integer>123</integer>
+<key>name</key><string>PerfPowerServices</string>
+<key>started_abstime_ns</key><integer>370986794</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>4072583</integer>
+<key>cputime_ms_per_s</key><real>0.81279</real>
+<key>cputime_sample_ms_per_s</key><real>0.813242</real>
+<key>cputime_userland_ratio</key><real>0.803513</real>
+<key>intr_wakeups</key><integer>1</integer>
+<key>intr_wakeups_per_s</key><real>0.199576</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>4072583</integer>
+<key>qos_background_ms_per_s</key><real>0.81279</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>0</integer>
+<key>qos_default_ms_per_s</key><real>0</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.182972</real>
+<key>energy_impact_per_s</key><real>0.0365168</real>
+</dict>
+<dict>
+<key>pid</key><integer>5790</integer>
+<key>name</key><string>Terminal</string>
+<key>started_abstime_ns</key><integer>99322412361</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>3045500</integer>
+<key>cputime_ms_per_s</key><real>0.607809</real>
+<key>cputime_sample_ms_per_s</key><real>0.608147</real>
+<key>cputime_userland_ratio</key><real>0.294642</real>
+<key>intr_wakeups</key><integer>7</integer>
+<key>intr_wakeups_per_s</key><real>1.39703</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>0</integer>
+<key>qos_background_ms_per_s</key><real>0</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>122375</integer>
+<key>qos_default_ms_per_s</key><real>0.0244231</real>
+<key>qos_user_initiated_ns</key><integer>1897333</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0.378662</real>
+<key>qos_user_interactive_ns</key><integer>1025791</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0.204723</real>
+<key>energy_impact</key><real>0.133146</real>
+<key>energy_impact_per_s</key><real>0.0265727</real>
+</dict>
+<dict>
+<key>pid</key><integer>726</integer>
+<key>name</key><string>Xcode</string>
+<key>started_abstime_ns</key><integer>21027490791</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>2694333</integer>
+<key>cputime_ms_per_s</key><real>0.537724</real>
+<key>cputime_sample_ms_per_s</key><real>0.538023</real>
+<key>cputime_userland_ratio</key><real>0.526816</real>
+<key>intr_wakeups</key><integer>0</integer>
+<key>intr_wakeups_per_s</key><real>0</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>0</integer>
+<key>qos_background_ms_per_s</key><real>0</real>
+<key>qos_utility_ns</key><integer>157375</integer>
+<key>qos_utility_ms_per_s</key><real>0.0314083</real>
+<key>qos_default_ns</key><integer>2536958</integer>
+<key>qos_default_ms_per_s</key><real>0.506316</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.12095</real>
+<key>energy_impact_per_s</key><real>0.0241387</real>
+</dict>
+<dict>
+<key>pid</key><integer>358</integer>
+<key>name</key><string>UserEventAgent</string>
+<key>started_abstime_ns</key><integer>776492467</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>2583000</integer>
+<key>cputime_ms_per_s</key><real>0.515505</real>
+<key>cputime_sample_ms_per_s</key><real>0.515792</real>
+<key>cputime_userland_ratio</key><real>0.818799</real>
+<key>intr_wakeups</key><integer>1</integer>
+<key>intr_wakeups_per_s</key><real>0.199576</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>0</integer>
+<key>qos_background_ms_per_s</key><real>0</real>
+<key>qos_utility_ns</key><integer>2160916</integer>
+<key>qos_utility_ms_per_s</key><real>0.431267</real>
+<key>qos_default_ns</key><integer>283083</integer>
+<key>qos_default_ms_per_s</key><real>0.0564966</real>
+<key>qos_user_initiated_ns</key><integer>139000</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0.0277411</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.116564</real>
+<key>energy_impact_per_s</key><real>0.0232634</real>
+</dict>
+<dict>
+<key>pid</key><integer>402</integer>
+<key>name</key><string>sharingd</string>
+<key>started_abstime_ns</key><integer>792114966</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>2977625</integer>
+<key>cputime_ms_per_s</key><real>0.594262</real>
+<key>cputime_sample_ms_per_s</key><real>0.594593</real>
+<key>cputime_userland_ratio</key><real>0.713978</real>
+<key>intr_wakeups</key><integer>1</integer>
+<key>intr_wakeups_per_s</key><real>0.199576</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>0</integer>
+<key>qos_background_ms_per_s</key><real>0</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>1389125</integer>
+<key>qos_default_ms_per_s</key><real>0.277236</real>
+<key>qos_user_initiated_ns</key><integer>1588500</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0.317026</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.098136</real>
+<key>energy_impact_per_s</key><real>0.0195856</real>
+</dict>
+<dict>
+<key>pid</key><integer>119</integer>
+<key>name</key><string>dasd</string>
+<key>started_abstime_ns</key><integer>370974434</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>2348000</integer>
+<key>cputime_ms_per_s</key><real>0.468604</real>
+<key>cputime_sample_ms_per_s</key><real>0.468865</real>
+<key>cputime_userland_ratio</key><real>0.854646</real>
+<key>intr_wakeups</key><integer>1</integer>
+<key>intr_wakeups_per_s</key><real>0.199576</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>2348000</integer>
+<key>qos_background_ms_per_s</key><real>0.468604</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>0</integer>
+<key>qos_default_ms_per_s</key><real>0</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.09422</real>
+<key>energy_impact_per_s</key><real>0.018804</real>
+</dict>
+<dict>
+<key>pid</key><integer>209</integer>
+<key>name</key><string>airportd</string>
+<key>started_abstime_ns</key><integer>388913784</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>2052541</integer>
+<key>cputime_ms_per_s</key><real>0.409638</real>
+<key>cputime_sample_ms_per_s</key><real>0.409866</real>
+<key>cputime_userland_ratio</key><real>0.543574</real>
+<key>intr_wakeups</key><integer>0</integer>
+<key>intr_wakeups_per_s</key><real>0</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>0</integer>
+<key>qos_background_ms_per_s</key><real>0</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>2052541</integer>
+<key>qos_default_ms_per_s</key><real>0.409638</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.08092</real>
+<key>energy_impact_per_s</key><real>0.0161497</real>
+</dict>
+<dict>
+<key>pid</key><integer>88</integer>
+<key>name</key><string>logd</string>
+<key>started_abstime_ns</key><integer>370881510</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>1786041</integer>
+<key>cputime_ms_per_s</key><real>0.356451</real>
+<key>cputime_sample_ms_per_s</key><real>0.356649</real>
+<key>cputime_userland_ratio</key><real>0.696139</real>
+<key>intr_wakeups</key><integer>2</integer>
+<key>intr_wakeups_per_s</key><real>0.399152</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>0</integer>
+<key>qos_background_ms_per_s</key><real>0</real>
+<key>qos_utility_ns</key><integer>1612958</integer>
+<key>qos_utility_ms_per_s</key><real>0.321908</real>
+<key>qos_default_ns</key><integer>80833</integer>
+<key>qos_default_ms_per_s</key><real>0.0161324</real>
+<key>qos_user_initiated_ns</key><integer>92250</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0.0184109</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.074164</real>
+<key>energy_impact_per_s</key><real>0.0148014</real>
+</dict>
+<dict>
+<key>pid</key><integer>107</integer>
+<key>name</key><string>thermalmonitord</string>
+<key>started_abstime_ns</key><integer>370937556</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>2025708</integer>
+<key>cputime_ms_per_s</key><real>0.404283</real>
+<key>cputime_sample_ms_per_s</key><real>0.404508</real>
+<key>cputime_userland_ratio</key><real>0.383837</real>
+<key>intr_wakeups</key><integer>5</integer>
+<key>intr_wakeups_per_s</key><real>0.99788</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>0</integer>
+<key>qos_background_ms_per_s</key><real>0</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>0</integer>
+<key>qos_default_ms_per_s</key><real>0</real>
+<key>qos_user_initiated_ns</key><integer>2025708</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0.404283</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.073365</real>
+<key>energy_impact_per_s</key><real>0.0146419</real>
+</dict>
+<dict>
+<key>pid</key><integer>226</integer>
+<key>name</key><string>awdd</string>
+<key>started_abstime_ns</key><integer>393422798</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>1265166</integer>
+<key>cputime_ms_per_s</key><real>0.252497</real>
+<key>cputime_sample_ms_per_s</key><real>0.252637</real>
+<key>cputime_userland_ratio</key><real>0.687492</real>
+<key>intr_wakeups</key><integer>1</integer>
+<key>intr_wakeups_per_s</key><real>0.199576</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>1265166</integer>
+<key>qos_background_ms_per_s</key><real>0.252497</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>0</integer>
+<key>qos_default_ms_per_s</key><real>0</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.053364</real>
+<key>energy_impact_per_s</key><real>0.0106502</real>
+</dict>
+<dict>
+<key>pid</key><integer>261</integer>
+<key>name</key><string>searchpartyd</string>
+<key>started_abstime_ns</key><integer>415046278</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>1832708</integer>
+<key>cputime_ms_per_s</key><real>0.365765</real>
+<key>cputime_sample_ms_per_s</key><real>0.365968</real>
+<key>cputime_userland_ratio</key><real>0.662021</real>
+<key>intr_wakeups</key><integer>0</integer>
+<key>intr_wakeups_per_s</key><real>0</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>19375</integer>
+<key>qos_background_ms_per_s</key><real>0.00386678</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>0</integer>
+<key>qos_default_ms_per_s</key><real>0</real>
+<key>qos_user_initiated_ns</key><integer>1813333</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0.361898</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.05101</real>
+<key>energy_impact_per_s</key><real>0.0101804</real>
+</dict>
+<dict>
+<key>pid</key><integer>533</integer>
+<key>name</key><string>assistant_service</string>
+<key>started_abstime_ns</key><integer>1893001487</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>1114375</integer>
+<key>cputime_ms_per_s</key><real>0.222402</real>
+<key>cputime_sample_ms_per_s</key><real>0.222526</real>
+<key>cputime_userland_ratio</key><real>0.726379</real>
+<key>intr_wakeups</key><integer>2</integer>
+<key>intr_wakeups_per_s</key><real>0.399152</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>494500</integer>
+<key>qos_background_ms_per_s</key><real>0.0986903</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>619875</integer>
+<key>qos_default_ms_per_s</key><real>0.123712</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.045188</real>
+<key>energy_impact_per_s</key><real>0.00901844</real>
+</dict>
+<dict>
+<key>pid</key><integer>108</integer>
+<key>name</key><string>contextstored</string>
+<key>started_abstime_ns</key><integer>370940371</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>1118375</integer>
+<key>cputime_ms_per_s</key><real>0.223201</real>
+<key>cputime_sample_ms_per_s</key><real>0.223325</real>
+<key>cputime_userland_ratio</key><real>0.502403</real>
+<key>intr_wakeups</key><integer>2</integer>
+<key>intr_wakeups_per_s</key><real>0.399152</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>1118375</integer>
+<key>qos_background_ms_per_s</key><real>0.223201</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>0</integer>
+<key>qos_default_ms_per_s</key><real>0</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.042845</real>
+<key>energy_impact_per_s</key><real>0.00855083</real>
+</dict>
+<dict>
+<key>pid</key><integer>214</integer>
+<key>name</key><string>symptomsd</string>
+<key>started_abstime_ns</key><integer>389728637</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>1045791</integer>
+<key>cputime_ms_per_s</key><real>0.208715</real>
+<key>cputime_sample_ms_per_s</key><real>0.208831</real>
+<key>cputime_userland_ratio</key><real>0.662975</real>
+<key>intr_wakeups</key><integer>1</integer>
+<key>intr_wakeups_per_s</key><real>0.199576</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>1045791</integer>
+<key>qos_background_ms_per_s</key><real>0.208715</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>0</integer>
+<key>qos_default_ms_per_s</key><real>0</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.042477</real>
+<key>energy_impact_per_s</key><real>0.00847739</real>
+</dict>
+<dict>
+<key>pid</key><integer>910</integer>
+<key>name</key><string>it.murus.pf.helper</string>
+<key>started_abstime_ns</key><integer>27562613644</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>1372166</integer>
+<key>cputime_ms_per_s</key><real>0.273852</real>
+<key>cputime_sample_ms_per_s</key><real>0.274004</real>
+<key>cputime_userland_ratio</key><real>0.295457</real>
+<key>intr_wakeups</key><integer>3</integer>
+<key>intr_wakeups_per_s</key><real>0.598728</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>92666</integer>
+<key>qos_background_ms_per_s</key><real>0.018494</real>
+<key>qos_utility_ns</key><integer>1279500</integer>
+<key>qos_utility_ms_per_s</key><real>0.255357</real>
+<key>qos_default_ns</key><integer>0</integer>
+<key>qos_default_ms_per_s</key><real>0</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.036</real>
+<key>energy_impact_per_s</key><real>0.00718474</real>
+</dict>
+<dict>
+<key>pid</key><integer>113</integer>
+<key>name</key><string>usbmuxd</string>
+<key>started_abstime_ns</key><integer>370956023</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>664000</integer>
+<key>cputime_ms_per_s</key><real>0.132518</real>
+<key>cputime_sample_ms_per_s</key><real>0.132592</real>
+<key>cputime_userland_ratio</key><real>0.38824</real>
+<key>intr_wakeups</key><integer>1</integer>
+<key>intr_wakeups_per_s</key><real>0.199576</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>1</integer>
+  <key>wakeups_per_s</key><real>0.199576</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>0</integer>
+<key>qos_background_ms_per_s</key><real>0</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>664000</integer>
+<key>qos_default_ms_per_s</key><real>0.132518</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.028836</real>
+<key>energy_impact_per_s</key><real>0.00575497</real>
+</dict>
+<dict>
+<key>pid</key><integer>554</integer>
+<key>name</key><string>passd</string>
+<key>started_abstime_ns</key><integer>1972626622</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>760250</integer>
+<key>cputime_ms_per_s</key><real>0.151728</real>
+<key>cputime_sample_ms_per_s</key><real>0.151812</real>
+<key>cputime_userland_ratio</key><real>0.635865</real>
+<key>intr_wakeups</key><integer>0</integer>
+<key>intr_wakeups_per_s</key><real>0</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>0</integer>
+<key>qos_background_ms_per_s</key><real>0</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>760250</integer>
+<key>qos_default_ms_per_s</key><real>0.151728</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.028723</real>
+<key>energy_impact_per_s</key><real>0.00573242</real>
+</dict>
+<dict>
+<key>pid</key><integer>581</integer>
+<key>name</key><string>Safari</string>
+<key>started_abstime_ns</key><integer>2411861464</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>825958</integer>
+<key>cputime_ms_per_s</key><real>0.164841</real>
+<key>cputime_sample_ms_per_s</key><real>0.164933</real>
+<key>cputime_userland_ratio</key><real>0.752257</real>
+<key>intr_wakeups</key><integer>1</integer>
+<key>intr_wakeups_per_s</key><real>0.199576</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>0</integer>
+<key>qos_background_ms_per_s</key><real>0</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>825958</integer>
+<key>qos_default_ms_per_s</key><real>0.164841</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.027877</real>
+<key>energy_impact_per_s</key><real>0.00556358</real>
+</dict>
+<dict>
+<key>pid</key><integer>586</integer>
+<key>name</key><string>SafariBookmarksSyncAgent</string>
+<key>started_abstime_ns</key><integer>2420281477</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>884833</integer>
+<key>cputime_ms_per_s</key><real>0.176591</real>
+<key>cputime_sample_ms_per_s</key><real>0.17669</real>
+<key>cputime_userland_ratio</key><real>0.48187</real>
+<key>intr_wakeups</key><integer>5</integer>
+<key>intr_wakeups_per_s</key><real>0.99788</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>0</integer>
+<key>qos_background_ms_per_s</key><real>0</real>
+<key>qos_utility_ns</key><integer>884833</integer>
+<key>qos_utility_ms_per_s</key><real>0.176591</real>
+<key>qos_default_ns</key><integer>0</integer>
+<key>qos_default_ms_per_s</key><real>0</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.026343</real>
+<key>energy_impact_per_s</key><real>0.00525743</real>
+</dict>
+<dict>
+<key>pid</key><integer>412</integer>
+<key>name</key><string>assistantd</string>
+<key>started_abstime_ns</key><integer>799767172</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>649500</integer>
+<key>cputime_ms_per_s</key><real>0.129625</real>
+<key>cputime_sample_ms_per_s</key><real>0.129697</real>
+<key>cputime_userland_ratio</key><real>0.677252</real>
+<key>intr_wakeups</key><integer>2</integer>
+<key>intr_wakeups_per_s</key><real>0.399152</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>95583</integer>
+<key>qos_background_ms_per_s</key><real>0.0190761</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>553916</integer>
+<key>qos_default_ms_per_s</key><real>0.110548</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.025321</real>
+<key>energy_impact_per_s</key><real>0.00505346</real>
+</dict>
+<dict>
+<key>pid</key><integer>492</integer>
+<key>name</key><string>suggestd</string>
+<key>started_abstime_ns</key><integer>940542630</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>665500</integer>
+<key>cputime_ms_per_s</key><real>0.132818</real>
+<key>cputime_sample_ms_per_s</key><real>0.132892</real>
+<key>cputime_userland_ratio</key><real>0.693151</real>
+<key>intr_wakeups</key><integer>0</integer>
+<key>intr_wakeups_per_s</key><real>0</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>0</integer>
+<key>qos_background_ms_per_s</key><real>0</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>665500</integer>
+<key>qos_default_ms_per_s</key><real>0.132818</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.024966</real>
+<key>energy_impact_per_s</key><real>0.00498261</real>
+</dict>
+<dict>
+<key>pid</key><integer>428</integer>
+<key>name</key><string>homed</string>
+<key>started_abstime_ns</key><integer>816236454</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>677541</integer>
+<key>cputime_ms_per_s</key><real>0.135221</real>
+<key>cputime_sample_ms_per_s</key><real>0.135296</real>
+<key>cputime_userland_ratio</key><real>0.698604</real>
+<key>intr_wakeups</key><integer>1</integer>
+<key>intr_wakeups_per_s</key><real>0.199576</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>59083</integer>
+<key>qos_background_ms_per_s</key><real>0.0117916</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>618458</integer>
+<key>qos_default_ms_per_s</key><real>0.123429</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.024497</real>
+<key>energy_impact_per_s</key><real>0.00488901</real>
+</dict>
+<dict>
+<key>pid</key><integer>470</integer>
+<key>name</key><string>parsecd</string>
+<key>started_abstime_ns</key><integer>879147851</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>629083</integer>
+<key>cputime_ms_per_s</key><real>0.12555</real>
+<key>cputime_sample_ms_per_s</key><real>0.12562</real>
+<key>cputime_userland_ratio</key><real>0.681349</real>
+<key>intr_wakeups</key><integer>1</integer>
+<key>intr_wakeups_per_s</key><real>0.199576</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>220166</integer>
+<key>qos_background_ms_per_s</key><real>0.04394</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>408916</integer>
+<key>qos_default_ms_per_s</key><real>0.0816099</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.024317</real>
+<key>energy_impact_per_s</key><real>0.00485309</real>
+</dict>
+<dict>
+<key>pid</key><integer>740</integer>
+<key>name</key><string>mapspushd</string>
+<key>started_abstime_ns</key><integer>21186006675</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>597625</integer>
+<key>cputime_ms_per_s</key><real>0.119272</real>
+<key>cputime_sample_ms_per_s</key><real>0.119338</real>
+<key>cputime_userland_ratio</key><real>0.664854</real>
+<key>intr_wakeups</key><integer>1</integer>
+<key>intr_wakeups_per_s</key><real>0.199576</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>309416</integer>
+<key>qos_background_ms_per_s</key><real>0.0617521</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>288208</integer>
+<key>qos_default_ms_per_s</key><real>0.0575195</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.023979</real>
+<key>energy_impact_per_s</key><real>0.00478563</real>
+</dict>
+<dict>
+<key>pid</key><integer>440</integer>
+<key>name</key><string>fmfd</string>
+<key>started_abstime_ns</key><integer>855348082</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>600041</integer>
+<key>cputime_ms_per_s</key><real>0.119754</real>
+<key>cputime_sample_ms_per_s</key><real>0.119821</real>
+<key>cputime_userland_ratio</key><real>0.688772</real>
+<key>intr_wakeups</key><integer>1</integer>
+<key>intr_wakeups_per_s</key><real>0.199576</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>56708</integer>
+<key>qos_background_ms_per_s</key><real>0.0113176</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>543333</integer>
+<key>qos_default_ms_per_s</key><real>0.108436</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.02374</real>
+<key>energy_impact_per_s</key><real>0.00473793</real>
+</dict>
+<dict>
+<key>pid</key><integer>376</integer>
+<key>name</key><string>routined</string>
+<key>started_abstime_ns</key><integer>781311302</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>616416</integer>
+<key>cputime_ms_per_s</key><real>0.123022</real>
+<key>cputime_sample_ms_per_s</key><real>0.12309</real>
+<key>cputime_userland_ratio</key><real>0.70265</real>
+<key>intr_wakeups</key><integer>0</integer>
+<key>intr_wakeups_per_s</key><real>0</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>17333</integer>
+<key>qos_background_ms_per_s</key><real>0.00345932</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>599083</integer>
+<key>qos_default_ms_per_s</key><real>0.119563</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.023134</real>
+<key>energy_impact_per_s</key><real>0.00461699</real>
+</dict>
+<dict>
+<key>pid</key><integer>133</integer>
+<key>name</key><string>AirPlayXPCHelper</string>
+<key>started_abstime_ns</key><integer>371016464</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>750833</integer>
+<key>cputime_ms_per_s</key><real>0.149848</real>
+<key>cputime_sample_ms_per_s</key><real>0.149932</real>
+<key>cputime_userland_ratio</key><real>0.364262</real>
+<key>intr_wakeups</key><integer>5</integer>
+<key>intr_wakeups_per_s</key><real>0.99788</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>589416</integer>
+<key>qos_disabled_ms_per_s</key><real>0.117633</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>0</integer>
+<key>qos_background_ms_per_s</key><real>0</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>161416</integer>
+<key>qos_default_ms_per_s</key><real>0.0322149</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.021308</real>
+<key>energy_impact_per_s</key><real>0.00425257</real>
+</dict>
+<dict>
+<key>pid</key><integer>75</integer>
+<key>name</key><string>fseventsd</string>
+<key>started_abstime_ns</key><integer>370843421</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>682041</integer>
+<key>cputime_ms_per_s</key><real>0.136119</real>
+<key>cputime_sample_ms_per_s</key><real>0.136195</real>
+<key>cputime_userland_ratio</key><real>0.297758</real>
+<key>intr_wakeups</key><integer>3</integer>
+<key>intr_wakeups_per_s</key><real>0.598728</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>266208</integer>
+<key>qos_disabled_ms_per_s</key><real>0.0531288</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>0</integer>
+<key>qos_background_ms_per_s</key><real>0</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>415833</integer>
+<key>qos_default_ms_per_s</key><real>0.0829903</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.016752</real>
+<key>energy_impact_per_s</key><real>0.0033433</real>
+</dict>
+<dict>
+<key>pid</key><integer>189</integer>
+<key>name</key><string>mDNSResponder</string>
+<key>started_abstime_ns</key><integer>385787403</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>391666</integer>
+<key>cputime_ms_per_s</key><real>0.0781673</real>
+<key>cputime_sample_ms_per_s</key><real>0.0782107</real>
+<key>cputime_userland_ratio</key><real>0.435319</real>
+<key>intr_wakeups</key><integer>5</integer>
+<key>intr_wakeups_per_s</key><real>0.99788</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>3</integer>
+  <key>wakeups_per_s</key><real>0.598728</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>0</integer>
+<key>qos_background_ms_per_s</key><real>0</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>312166</integer>
+<key>qos_default_ms_per_s</key><real>0.062301</real>
+<key>qos_user_initiated_ns</key><integer>79500</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0.0158663</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.01223</real>
+<key>energy_impact_per_s</key><real>0.00244081</real>
+</dict>
+<dict>
+<key>pid</key><integer>373</integer>
+<key>name</key><string>nsurlsessiond</string>
+<key>started_abstime_ns</key><integer>781039021</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>334708</integer>
+<key>cputime_ms_per_s</key><real>0.0667997</real>
+<key>cputime_sample_ms_per_s</key><real>0.0668369</real>
+<key>cputime_userland_ratio</key><real>0.279472</real>
+<key>intr_wakeups</key><integer>1</integer>
+<key>intr_wakeups_per_s</key><real>0.199576</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>0</integer>
+<key>qos_background_ms_per_s</key><real>0</real>
+<key>qos_utility_ns</key><integer>300291</integer>
+<key>qos_utility_ms_per_s</key><real>0.059931</real>
+<key>qos_default_ns</key><integer>0</integer>
+<key>qos_default_ms_per_s</key><real>0</real>
+<key>qos_user_initiated_ns</key><integer>34416</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0.00686874</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.012164</real>
+<key>energy_impact_per_s</key><real>0.00242764</real>
+</dict>
+<dict>
+<key>pid</key><integer>81</integer>
+<key>name</key><string>configd</string>
+<key>started_abstime_ns</key><integer>370860809</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>249750</integer>
+<key>cputime_ms_per_s</key><real>0.0498441</real>
+<key>cputime_sample_ms_per_s</key><real>0.0498718</real>
+<key>cputime_userland_ratio</key><real>0.251084</real>
+<key>intr_wakeups</key><integer>0</integer>
+<key>intr_wakeups_per_s</key><real>0</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>0</integer>
+<key>qos_background_ms_per_s</key><real>0</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>249750</integer>
+<key>qos_default_ms_per_s</key><real>0.0498441</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.010832</real>
+<key>energy_impact_per_s</key><real>0.00216181</real>
+</dict>
+<dict>
+<key>pid</key><integer>6032</integer>
+<key>name</key><string>sudo</string>
+<key>started_abstime_ns</key><integer>149060905883</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>264875</integer>
+<key>cputime_ms_per_s</key><real>0.0528627</real>
+<key>cputime_sample_ms_per_s</key><real>0.0528921</real>
+<key>cputime_userland_ratio</key><real>0.0734623</real>
+<key>intr_wakeups</key><integer>1</integer>
+<key>intr_wakeups_per_s</key><real>0.199576</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>0</integer>
+<key>qos_background_ms_per_s</key><real>0</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>264875</integer>
+<key>qos_default_ms_per_s</key><real>0.0528627</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.008439</real>
+<key>energy_impact_per_s</key><real>0.00168422</real>
+</dict>
+<dict>
+<key>pid</key><integer>109</integer>
+<key>name</key><string>opendirectoryd</string>
+<key>started_abstime_ns</key><integer>370943357</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>235916</integer>
+<key>cputime_ms_per_s</key><real>0.0470833</real>
+<key>cputime_sample_ms_per_s</key><real>0.0471095</real>
+<key>cputime_userland_ratio</key><real>0.298304</real>
+<key>intr_wakeups</key><integer>1</integer>
+<key>intr_wakeups_per_s</key><real>0.199576</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>0</integer>
+<key>qos_background_ms_per_s</key><real>0</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>235916</integer>
+<key>qos_default_ms_per_s</key><real>0.0470833</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.008392</real>
+<key>energy_impact_per_s</key><real>0.00167484</real>
+</dict>
+<dict>
+<key>pid</key><integer>130</integer>
+<key>name</key><string>notifyd</string>
+<key>started_abstime_ns</key><integer>371007775</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>250125</integer>
+<key>cputime_ms_per_s</key><real>0.0499189</real>
+<key>cputime_sample_ms_per_s</key><real>0.0499467</real>
+<key>cputime_userland_ratio</key><real>0.305181</real>
+<key>intr_wakeups</key><integer>0</integer>
+<key>intr_wakeups_per_s</key><real>0</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>0</integer>
+<key>qos_background_ms_per_s</key><real>0</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>123791</integer>
+<key>qos_default_ms_per_s</key><real>0.0247058</real>
+<key>qos_user_initiated_ns</key><integer>126333</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0.0252131</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.00799</real>
+<key>energy_impact_per_s</key><real>0.00159461</real>
+</dict>
+<dict>
+<key>pid</key><integer>205</integer>
+<key>name</key><string>nsurlsessiond</string>
+<key>started_abstime_ns</key><integer>388830463</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>211041</integer>
+<key>cputime_ms_per_s</key><real>0.0421188</real>
+<key>cputime_sample_ms_per_s</key><real>0.0421423</real>
+<key>cputime_userland_ratio</key><real>0.269891</real>
+<key>intr_wakeups</key><integer>2</integer>
+<key>intr_wakeups_per_s</key><real>0.399152</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>211041</integer>
+<key>qos_background_ms_per_s</key><real>0.0421188</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>0</integer>
+<key>qos_default_ms_per_s</key><real>0</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.00757</real>
+<key>energy_impact_per_s</key><real>0.00151079</real>
+</dict>
+<dict>
+<key>pid</key><integer>377</integer>
+<key>name</key><string>rapportd</string>
+<key>started_abstime_ns</key><integer>781358235</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>236875</integer>
+<key>cputime_ms_per_s</key><real>0.0472746</real>
+<key>cputime_sample_ms_per_s</key><real>0.0473009</real>
+<key>cputime_userland_ratio</key><real>0.284785</real>
+<key>intr_wakeups</key><integer>2</integer>
+<key>intr_wakeups_per_s</key><real>0.399152</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>0</integer>
+<key>qos_background_ms_per_s</key><real>0</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>177250</integer>
+<key>qos_default_ms_per_s</key><real>0.0353748</real>
+<key>qos_user_initiated_ns</key><integer>59625</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0.0118997</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.007326</real>
+<key>energy_impact_per_s</key><real>0.00146209</real>
+</dict>
+<dict>
+<key>pid</key><integer>458</integer>
+<key>name</key><string>cloudpaird</string>
+<key>started_abstime_ns</key><integer>875912637</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>236041</integer>
+<key>cputime_ms_per_s</key><real>0.0471082</real>
+<key>cputime_sample_ms_per_s</key><real>0.0471345</real>
+<key>cputime_userland_ratio</key><real>0.679082</real>
+<key>intr_wakeups</key><integer>0</integer>
+<key>intr_wakeups_per_s</key><real>0</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>0</integer>
+<key>qos_background_ms_per_s</key><real>0</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>236041</integer>
+<key>qos_default_ms_per_s</key><real>0.0471082</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.007017</real>
+<key>energy_impact_per_s</key><real>0.00140042</real>
+</dict>
+<dict>
+<key>pid</key><integer>397</integer>
+<key>name</key><string>useractivityd</string>
+<key>started_abstime_ns</key><integer>789288315</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>229875</integer>
+<key>cputime_ms_per_s</key><real>0.0458775</real>
+<key>cputime_sample_ms_per_s</key><real>0.0459031</real>
+<key>cputime_userland_ratio</key><real>0.594163</real>
+<key>intr_wakeups</key><integer>1</integer>
+<key>intr_wakeups_per_s</key><real>0.199576</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>229875</integer>
+<key>qos_background_ms_per_s</key><real>0.0458775</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>0</integer>
+<key>qos_default_ms_per_s</key><real>0</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.006113</real>
+<key>energy_impact_per_s</key><real>0.00122001</real>
+</dict>
+<dict>
+<key>pid</key><integer>79</integer>
+<key>name</key><string>systemstats</string>
+<key>started_abstime_ns</key><integer>370855284</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>205041</integer>
+<key>cputime_ms_per_s</key><real>0.0409214</real>
+<key>cputime_sample_ms_per_s</key><real>0.0409442</real>
+<key>cputime_userland_ratio</key><real>0.60699</real>
+<key>intr_wakeups</key><integer>0</integer>
+<key>intr_wakeups_per_s</key><real>0</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>205041</integer>
+<key>qos_background_ms_per_s</key><real>0.0409214</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>0</integer>
+<key>qos_default_ms_per_s</key><real>0</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.005874</real>
+<key>energy_impact_per_s</key><real>0.00117231</real>
+</dict>
+<dict>
+<key>pid</key><integer>464</integer>
+<key>name</key><string>ctkahp</string>
+<key>started_abstime_ns</key><integer>876190525</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>194958</integer>
+<key>cputime_ms_per_s</key><real>0.038909</real>
+<key>cputime_sample_ms_per_s</key><real>0.0389306</real>
+<key>cputime_userland_ratio</key><real>0.205386</real>
+<key>intr_wakeups</key><integer>1</integer>
+<key>intr_wakeups_per_s</key><real>0.199576</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>194958</integer>
+<key>qos_background_ms_per_s</key><real>0.038909</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>0</integer>
+<key>qos_default_ms_per_s</key><real>0</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.005791</real>
+<key>energy_impact_per_s</key><real>0.00115574</real>
+</dict>
+<dict>
+<key>pid</key><integer>217</integer>
+<key>name</key><string>mDNSResponderHelper</string>
+<key>started_abstime_ns</key><integer>391000202</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>207708</integer>
+<key>cputime_ms_per_s</key><real>0.0414536</real>
+<key>cputime_sample_ms_per_s</key><real>0.0414767</real>
+<key>cputime_userland_ratio</key><real>0.462387</real>
+<key>intr_wakeups</key><integer>5</integer>
+<key>intr_wakeups_per_s</key><real>0.99788</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>0</integer>
+<key>qos_background_ms_per_s</key><real>0</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>207708</integer>
+<key>qos_default_ms_per_s</key><real>0.0414536</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.004534</real>
+<key>energy_impact_per_s</key><real>0.000904878</real>
+</dict>
+<dict>
+<key>pid</key><integer>367</integer>
+<key>name</key><string>Finder</string>
+<key>started_abstime_ns</key><integer>778491928</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>167625</integer>
+<key>cputime_ms_per_s</key><real>0.0334539</real>
+<key>cputime_sample_ms_per_s</key><real>0.0334725</real>
+<key>cputime_userland_ratio</key><real>0.313199</real>
+<key>intr_wakeups</key><integer>1</integer>
+<key>intr_wakeups_per_s</key><real>0.199576</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>0</integer>
+<key>qos_background_ms_per_s</key><real>0</real>
+<key>qos_utility_ns</key><integer>167625</integer>
+<key>qos_utility_ms_per_s</key><real>0.0334539</real>
+<key>qos_default_ns</key><integer>0</integer>
+<key>qos_default_ms_per_s</key><real>0</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.004461</real>
+<key>energy_impact_per_s</key><real>0.000890308</real>
+</dict>
+<dict>
+<key>pid</key><integer>462</integer>
+<key>name</key><string>amsaccountsd</string>
+<key>started_abstime_ns</key><integer>876050925</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>154041</integer>
+<key>cputime_ms_per_s</key><real>0.030743</real>
+<key>cputime_sample_ms_per_s</key><real>0.0307601</real>
+<key>cputime_userland_ratio</key><real>0.312686</real>
+<key>intr_wakeups</key><integer>1</integer>
+<key>intr_wakeups_per_s</key><real>0.199576</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>154041</integer>
+<key>qos_background_ms_per_s</key><real>0.030743</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>0</integer>
+<key>qos_default_ms_per_s</key><real>0</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.004378</real>
+<key>energy_impact_per_s</key><real>0.000873744</real>
+</dict>
+<dict>
+<key>pid</key><integer>429</integer>
+<key>name</key><string>ctkd</string>
+<key>started_abstime_ns</key><integer>819070989</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>120666</integer>
+<key>cputime_ms_per_s</key><real>0.0240822</real>
+<key>cputime_sample_ms_per_s</key><real>0.0240956</real>
+<key>cputime_userland_ratio</key><real>0.240331</real>
+<key>intr_wakeups</key><integer>1</integer>
+<key>intr_wakeups_per_s</key><real>0.199576</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>120666</integer>
+<key>qos_background_ms_per_s</key><real>0.0240822</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>0</integer>
+<key>qos_default_ms_per_s</key><real>0</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.003902</real>
+<key>energy_impact_per_s</key><real>0.000778746</real>
+</dict>
+<dict>
+<key>pid</key><integer>734</integer>
+<key>name</key><string>com.apple.dt.SKAgent</string>
+<key>started_abstime_ns</key><integer>21117165094</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>141708</integer>
+<key>cputime_ms_per_s</key><real>0.0282816</real>
+<key>cputime_sample_ms_per_s</key><real>0.0282973</real>
+<key>cputime_userland_ratio</key><real>0.379888</real>
+<key>intr_wakeups</key><integer>0</integer>
+<key>intr_wakeups_per_s</key><real>0</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>141708</integer>
+<key>qos_background_ms_per_s</key><real>0.0282816</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>0</integer>
+<key>qos_default_ms_per_s</key><real>0</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.003806</real>
+<key>energy_impact_per_s</key><real>0.000759586</real>
+</dict>
+<dict>
+<key>pid</key><integer>384</integer>
+<key>name</key><string>trustd</string>
+<key>started_abstime_ns</key><integer>782934150</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>99750</integer>
+<key>cputime_ms_per_s</key><real>0.0199077</real>
+<key>cputime_sample_ms_per_s</key><real>0.0199188</real>
+<key>cputime_userland_ratio</key><real>0.331245</real>
+<key>intr_wakeups</key><integer>2</integer>
+<key>intr_wakeups_per_s</key><real>0.399152</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>99750</integer>
+<key>qos_background_ms_per_s</key><real>0.0199077</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>0</integer>
+<key>qos_default_ms_per_s</key><real>0</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.003434</real>
+<key>energy_impact_per_s</key><real>0.000685344</real>
+</dict>
+<dict>
+<key>pid</key><integer>472</integer>
+<key>name</key><string>commerce</string>
+<key>started_abstime_ns</key><integer>881704458</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>102208</integer>
+<key>cputime_ms_per_s</key><real>0.0203983</real>
+<key>cputime_sample_ms_per_s</key><real>0.0204097</real>
+<key>cputime_userland_ratio</key><real>0.536078</real>
+<key>intr_wakeups</key><integer>2</integer>
+<key>intr_wakeups_per_s</key><real>0.399152</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>102208</integer>
+<key>qos_background_ms_per_s</key><real>0.0203983</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>0</integer>
+<key>qos_default_ms_per_s</key><real>0</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.003293</real>
+<key>energy_impact_per_s</key><real>0.000657204</real>
+</dict>
+<dict>
+<key>pid</key><integer>441</integer>
+<key>name</key><string>IMRemoteURLConnectionAgent</string>
+<key>started_abstime_ns</key><integer>858037124</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>93000</integer>
+<key>cputime_ms_per_s</key><real>0.0185606</real>
+<key>cputime_sample_ms_per_s</key><real>0.0185709</real>
+<key>cputime_userland_ratio</key><real>0.503584</real>
+<key>intr_wakeups</key><integer>2</integer>
+<key>intr_wakeups_per_s</key><real>0.399152</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>93000</integer>
+<key>qos_background_ms_per_s</key><real>0.0185606</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>0</integer>
+<key>qos_default_ms_per_s</key><real>0</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.003077</real>
+<key>energy_impact_per_s</key><real>0.000614095</real>
+</dict>
+<dict>
+<key>pid</key><integer>731</integer>
+<key>name</key><string>XCBBuildService</string>
+<key>started_abstime_ns</key><integer>21104214554</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>132666</integer>
+<key>cputime_ms_per_s</key><real>0.0264771</real>
+<key>cputime_sample_ms_per_s</key><real>0.0264918</real>
+<key>cputime_userland_ratio</key><real>0.325063</real>
+<key>intr_wakeups</key><integer>1</integer>
+<key>intr_wakeups_per_s</key><real>0.199576</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>0</integer>
+<key>qos_background_ms_per_s</key><real>0</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>132666</integer>
+<key>qos_default_ms_per_s</key><real>0.0264771</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.002798</real>
+<key>energy_impact_per_s</key><real>0.000558414</real>
+</dict>
+<dict>
+<key>pid</key><integer>370</integer>
+<key>name</key><string>CommCenter</string>
+<key>started_abstime_ns</key><integer>780718858</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>72875</integer>
+<key>cputime_ms_per_s</key><real>0.0145441</real>
+<key>cputime_sample_ms_per_s</key><real>0.0145522</real>
+<key>cputime_userland_ratio</key><real>0.113779</real>
+<key>intr_wakeups</key><integer>1</integer>
+<key>intr_wakeups_per_s</key><real>0.199576</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>0</integer>
+<key>qos_background_ms_per_s</key><real>0</real>
+<key>qos_utility_ns</key><integer>72875</integer>
+<key>qos_utility_ms_per_s</key><real>0.0145441</real>
+<key>qos_default_ns</key><integer>0</integer>
+<key>qos_default_ms_per_s</key><real>0</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.002566</real>
+<key>energy_impact_per_s</key><real>0.000512112</real>
+</dict>
+<dict>
+<key>pid</key><integer>597</integer>
+<key>name</key><string>com.apple.Safari.SafeBrowsing.Service</string>
+<key>started_abstime_ns</key><integer>2483273710</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>72833</integer>
+<key>cputime_ms_per_s</key><real>0.0145358</real>
+<key>cputime_sample_ms_per_s</key><real>0.0145439</real>
+<key>cputime_userland_ratio</key><real>0.425629</real>
+<key>intr_wakeups</key><integer>2</integer>
+<key>intr_wakeups_per_s</key><real>0.399152</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>72833</integer>
+<key>qos_background_ms_per_s</key><real>0.0145358</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>0</integer>
+<key>qos_default_ms_per_s</key><real>0</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.002552</real>
+<key>energy_impact_per_s</key><real>0.000509318</real>
+</dict>
+<dict>
+<key>pid</key><integer>98</integer>
+<key>name</key><string>mds</string>
+<key>started_abstime_ns</key><integer>370910885</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>85791</integer>
+<key>cputime_ms_per_s</key><real>0.017122</real>
+<key>cputime_sample_ms_per_s</key><real>0.0171315</real>
+<key>cputime_userland_ratio</key><real>0.532783</real>
+<key>intr_wakeups</key><integer>1</integer>
+<key>intr_wakeups_per_s</key><real>0.199576</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>46125</integer>
+<key>qos_background_ms_per_s</key><real>0.00920544</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>39666</integer>
+<key>qos_default_ms_per_s</key><real>0.00791651</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.002517</real>
+<key>energy_impact_per_s</key><real>0.000502333</real>
+</dict>
+<dict>
+<key>pid</key><integer>637</integer>
+<key>name</key><string>amsengagementd</string>
+<key>started_abstime_ns</key><integer>7527658469</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>70833</integer>
+<key>cputime_ms_per_s</key><real>0.0141366</real>
+<key>cputime_sample_ms_per_s</key><real>0.0141445</real>
+<key>cputime_userland_ratio</key><real>0.258235</real>
+<key>intr_wakeups</key><integer>1</integer>
+<key>intr_wakeups_per_s</key><real>0.199576</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>70833</integer>
+<key>qos_background_ms_per_s</key><real>0.0141366</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>0</integer>
+<key>qos_default_ms_per_s</key><real>0</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.002393</real>
+<key>energy_impact_per_s</key><real>0.000477585</real>
+</dict>
+<dict>
+<key>pid</key><integer>624</integer>
+<key>name</key><string>appstoreagent</string>
+<key>started_abstime_ns</key><integer>7475561780</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>74916</integer>
+<key>cputime_ms_per_s</key><real>0.0149516</real>
+<key>cputime_sample_ms_per_s</key><real>0.0149599</real>
+<key>cputime_userland_ratio</key><real>0.456618</real>
+<key>intr_wakeups</key><integer>2</integer>
+<key>intr_wakeups_per_s</key><real>0.399152</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>74916</integer>
+<key>qos_background_ms_per_s</key><real>0.0149516</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>0</integer>
+<key>qos_default_ms_per_s</key><real>0</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.002121</real>
+<key>energy_impact_per_s</key><real>0.000423301</real>
+</dict>
+<dict>
+<key>pid</key><integer>111</integer>
+<key>name</key><string>launchservicesd</string>
+<key>started_abstime_ns</key><integer>370950152</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>59083</integer>
+<key>cputime_ms_per_s</key><real>0.0117916</real>
+<key>cputime_sample_ms_per_s</key><real>0.0117982</real>
+<key>cputime_userland_ratio</key><real>0.22567</real>
+<key>intr_wakeups</key><integer>1</integer>
+<key>intr_wakeups_per_s</key><real>0.199576</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>59083</integer>
+<key>qos_background_ms_per_s</key><real>0.0117916</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>0</integer>
+<key>qos_default_ms_per_s</key><real>0</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.002078</real>
+<key>energy_impact_per_s</key><real>0.000414719</real>
+</dict>
+<dict>
+<key>pid</key><integer>308</integer>
+<key>name</key><string>com.apple.AccountPolicyHelper</string>
+<key>started_abstime_ns</key><integer>444294160</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>65708</integer>
+<key>cputime_ms_per_s</key><real>0.0131138</real>
+<key>cputime_sample_ms_per_s</key><real>0.0131211</real>
+<key>cputime_userland_ratio</key><real>0.22194</real>
+<key>intr_wakeups</key><integer>1</integer>
+<key>intr_wakeups_per_s</key><real>0.199576</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>65708</integer>
+<key>qos_background_ms_per_s</key><real>0.0131138</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>0</integer>
+<key>qos_default_ms_per_s</key><real>0</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.00204</real>
+<key>energy_impact_per_s</key><real>0.000407135</real>
+</dict>
+<dict>
+<key>pid</key><integer>74</integer>
+<key>name</key><string>uninstalld</string>
+<key>started_abstime_ns</key><integer>370840710</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>64749</integer>
+<key>cputime_ms_per_s</key><real>0.0129225</real>
+<key>cputime_sample_ms_per_s</key><real>0.0129297</real>
+<key>cputime_userland_ratio</key><real>0.111326</real>
+<key>intr_wakeups</key><integer>1</integer>
+<key>intr_wakeups_per_s</key><real>0.199576</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>0</integer>
+<key>qos_background_ms_per_s</key><real>0</real>
+<key>qos_utility_ns</key><integer>64749</integer>
+<key>qos_utility_ms_per_s</key><real>0.0129225</real>
+<key>qos_default_ns</key><integer>0</integer>
+<key>qos_default_ms_per_s</key><real>0</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.001898</real>
+<key>energy_impact_per_s</key><real>0.000378795</real>
+</dict>
+<dict>
+<key>pid</key><integer>606</integer>
+<key>name</key><string>com.apple.Safari.SearchHelper</string>
+<key>started_abstime_ns</key><integer>3043750781</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>53833</integer>
+<key>cputime_ms_per_s</key><real>0.0107438</real>
+<key>cputime_sample_ms_per_s</key><real>0.0107498</real>
+<key>cputime_userland_ratio</key><real>0.376161</real>
+<key>intr_wakeups</key><integer>1</integer>
+<key>intr_wakeups_per_s</key><real>0.199576</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>53833</integer>
+<key>qos_background_ms_per_s</key><real>0.0107438</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>0</integer>
+<key>qos_default_ms_per_s</key><real>0</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.001873</real>
+<key>energy_impact_per_s</key><real>0.000373806</real>
+</dict>
+<dict>
+<key>pid</key><integer>520</integer>
+<key>name</key><string>rtcreportingd</string>
+<key>started_abstime_ns</key><integer>1297829328</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>55708</integer>
+<key>cputime_ms_per_s</key><real>0.011118</real>
+<key>cputime_sample_ms_per_s</key><real>0.0111242</real>
+<key>cputime_userland_ratio</key><real>0.440539</real>
+<key>intr_wakeups</key><integer>1</integer>
+<key>intr_wakeups_per_s</key><real>0.199576</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>0</integer>
+<key>qos_background_ms_per_s</key><real>0</real>
+<key>qos_utility_ns</key><integer>55708</integer>
+<key>qos_utility_ms_per_s</key><real>0.011118</real>
+<key>qos_default_ns</key><integer>0</integer>
+<key>qos_default_ms_per_s</key><real>0</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.001868</real>
+<key>energy_impact_per_s</key><real>0.000372808</real>
+</dict>
+<dict>
+<key>pid</key><integer>216</integer>
+<key>name</key><string>mobileassetd</string>
+<key>started_abstime_ns</key><integer>390203872</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>49250</integer>
+<key>cputime_ms_per_s</key><real>0.00982912</real>
+<key>cputime_sample_ms_per_s</key><real>0.00983459</real>
+<key>cputime_userland_ratio</key><real>0.406937</real>
+<key>intr_wakeups</key><integer>1</integer>
+<key>intr_wakeups_per_s</key><real>0.199576</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>49250</integer>
+<key>qos_background_ms_per_s</key><real>0.00982912</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>0</integer>
+<key>qos_default_ms_per_s</key><real>0</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.001798</real>
+<key>energy_impact_per_s</key><real>0.000358838</real>
+</dict>
+<dict>
+<key>pid</key><integer>307</integer>
+<key>name</key><string>ctkahp</string>
+<key>started_abstime_ns</key><integer>444217229</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>61833</integer>
+<key>cputime_ms_per_s</key><real>0.0123404</real>
+<key>cputime_sample_ms_per_s</key><real>0.0123473</real>
+<key>cputime_userland_ratio</key><real>0.237871</real>
+<key>intr_wakeups</key><integer>1</integer>
+<key>intr_wakeups_per_s</key><real>0.199576</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>61833</integer>
+<key>qos_background_ms_per_s</key><real>0.0123404</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>0</integer>
+<key>qos_default_ms_per_s</key><real>0</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.001697</real>
+<key>energy_impact_per_s</key><real>0.00033868</real>
+</dict>
+<dict>
+<key>pid</key><integer>405</integer>
+<key>name</key><string>CalNCService</string>
+<key>started_abstime_ns</key><integer>795029184</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>60458</integer>
+<key>cputime_ms_per_s</key><real>0.012066</real>
+<key>cputime_sample_ms_per_s</key><real>0.0120727</real>
+<key>cputime_userland_ratio</key><real>0.254997</real>
+<key>intr_wakeups</key><integer>1</integer>
+<key>intr_wakeups_per_s</key><real>0.199576</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>60458</integer>
+<key>qos_background_ms_per_s</key><real>0.012066</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>0</integer>
+<key>qos_default_ms_per_s</key><real>0</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.001539</real>
+<key>energy_impact_per_s</key><real>0.000307147</real>
+</dict>
+<dict>
+<key>pid</key><integer>355</integer>
+<key>name</key><string>cfprefsd</string>
+<key>started_abstime_ns</key><integer>771127093</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>47625</integer>
+<key>cputime_ms_per_s</key><real>0.00950481</real>
+<key>cputime_sample_ms_per_s</key><real>0.00951009</real>
+<key>cputime_userland_ratio</key><real>0.260717</real>
+<key>intr_wakeups</key><integer>1</integer>
+<key>intr_wakeups_per_s</key><real>0.199576</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>47625</integer>
+<key>qos_background_ms_per_s</key><real>0.00950481</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>0</integer>
+<key>qos_default_ms_per_s</key><real>0</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.001404</real>
+<key>energy_impact_per_s</key><real>0.000280205</real>
+</dict>
+<dict>
+<key>pid</key><integer>361</integer>
+<key>name</key><string>com.apple.sbd</string>
+<key>started_abstime_ns</key><integer>777347852</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>38458</integer>
+<key>cputime_ms_per_s</key><real>0.00767536</real>
+<key>cputime_sample_ms_per_s</key><real>0.00767963</real>
+<key>cputime_userland_ratio</key><real>0.355363</real>
+<key>intr_wakeups</key><integer>1</integer>
+<key>intr_wakeups_per_s</key><real>0.199576</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>38458</integer>
+<key>qos_background_ms_per_s</key><real>0.00767536</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>0</integer>
+<key>qos_default_ms_per_s</key><real>0</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.00135</real>
+<key>energy_impact_per_s</key><real>0.000269428</real>
+</dict>
+<dict>
+<key>pid</key><integer>242</integer>
+<key>name</key><string>softwareupdated</string>
+<key>started_abstime_ns</key><integer>404034484</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>42083</integer>
+<key>cputime_ms_per_s</key><real>0.00839882</real>
+<key>cputime_sample_ms_per_s</key><real>0.0084035</real>
+<key>cputime_userland_ratio</key><real>0.410891</real>
+<key>intr_wakeups</key><integer>1</integer>
+<key>intr_wakeups_per_s</key><real>0.199576</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>42083</integer>
+<key>qos_background_ms_per_s</key><real>0.00839882</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>0</integer>
+<key>qos_default_ms_per_s</key><real>0</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.001345</real>
+<key>energy_impact_per_s</key><real>0.00026843</real>
+</dict>
+<dict>
+<key>pid</key><integer>164</integer>
+<key>name</key><string>trustd</string>
+<key>started_abstime_ns</key><integer>382660941</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>37125</integer>
+<key>cputime_ms_per_s</key><real>0.00740926</real>
+<key>cputime_sample_ms_per_s</key><real>0.00741338</real>
+<key>cputime_userland_ratio</key><real>0.457912</real>
+<key>intr_wakeups</key><integer>1</integer>
+<key>intr_wakeups_per_s</key><real>0.199576</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>37125</integer>
+<key>qos_background_ms_per_s</key><real>0.00740926</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>0</integer>
+<key>qos_default_ms_per_s</key><real>0</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.001315</real>
+<key>energy_impact_per_s</key><real>0.000262442</real>
+</dict>
+<dict>
+<key>pid</key><integer>215</integer>
+<key>name</key><string>findmydeviced</string>
+<key>started_abstime_ns</key><integer>389806924</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>35416</integer>
+<key>cputime_ms_per_s</key><real>0.00706832</real>
+<key>cputime_sample_ms_per_s</key><real>0.00707225</real>
+<key>cputime_userland_ratio</key><real>0.44</real>
+<key>intr_wakeups</key><integer>1</integer>
+<key>intr_wakeups_per_s</key><real>0.199576</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>35416</integer>
+<key>qos_background_ms_per_s</key><real>0.00706832</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>0</integer>
+<key>qos_default_ms_per_s</key><real>0</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.001314</real>
+<key>energy_impact_per_s</key><real>0.000262243</real>
+</dict>
+<dict>
+<key>pid</key><integer>433</integer>
+<key>name</key><string>akd</string>
+<key>started_abstime_ns</key><integer>824312209</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>38125</integer>
+<key>cputime_ms_per_s</key><real>0.00760883</real>
+<key>cputime_sample_ms_per_s</key><real>0.00761307</real>
+<key>cputime_userland_ratio</key><real>0.457923</real>
+<key>intr_wakeups</key><integer>1</integer>
+<key>intr_wakeups_per_s</key><real>0.199576</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>38125</integer>
+<key>qos_background_ms_per_s</key><real>0.00760883</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>0</integer>
+<key>qos_default_ms_per_s</key><real>0</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.001312</real>
+<key>energy_impact_per_s</key><real>0.000261844</real>
+</dict>
+<dict>
+<key>pid</key><integer>480</integer>
+<key>name</key><string>AssetCacheLocatorService</string>
+<key>started_abstime_ns</key><integer>896259175</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>41208</integer>
+<key>cputime_ms_per_s</key><real>0.00822419</real>
+<key>cputime_sample_ms_per_s</key><real>0.00822877</real>
+<key>cputime_userland_ratio</key><real>0.345804</real>
+<key>intr_wakeups</key><integer>1</integer>
+<key>intr_wakeups_per_s</key><real>0.199576</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>41208</integer>
+<key>qos_background_ms_per_s</key><real>0.00822419</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>0</integer>
+<key>qos_default_ms_per_s</key><real>0</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.001309</real>
+<key>energy_impact_per_s</key><real>0.000261245</real>
+</dict>
+<dict>
+<key>pid</key><integer>434</integer>
+<key>name</key><string>familycircled</string>
+<key>started_abstime_ns</key><integer>831531906</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>34666</integer>
+<key>cputime_ms_per_s</key><real>0.00691863</real>
+<key>cputime_sample_ms_per_s</key><real>0.00692248</real>
+<key>cputime_userland_ratio</key><real>0.449519</real>
+<key>intr_wakeups</key><integer>1</integer>
+<key>intr_wakeups_per_s</key><real>0.199576</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>34666</integer>
+<key>qos_background_ms_per_s</key><real>0.00691863</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>0</integer>
+<key>qos_default_ms_per_s</key><real>0</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.001299</real>
+<key>energy_impact_per_s</key><real>0.000259249</real>
+</dict>
+<dict>
+<key>pid</key><integer>110</integer>
+<key>name</key><string>apsd</string>
+<key>started_abstime_ns</key><integer>370946575</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>36833</integer>
+<key>cputime_ms_per_s</key><real>0.00735105</real>
+<key>cputime_sample_ms_per_s</key><real>0.00735514</real>
+<key>cputime_userland_ratio</key><real>0.382353</real>
+<key>intr_wakeups</key><integer>1</integer>
+<key>intr_wakeups_per_s</key><real>0.199576</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>0</integer>
+<key>qos_background_ms_per_s</key><real>0</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>36833</integer>
+<key>qos_default_ms_per_s</key><real>0.00735105</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.001228</real>
+<key>energy_impact_per_s</key><real>0.000245079</real>
+</dict>
+<dict>
+<key>pid</key><integer>461</integer>
+<key>name</key><string>remindd</string>
+<key>started_abstime_ns</key><integer>876015615</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>33833</integer>
+<key>cputime_ms_per_s</key><real>0.00675232</real>
+<key>cputime_sample_ms_per_s</key><real>0.00675608</real>
+<key>cputime_userland_ratio</key><real>0.387931</real>
+<key>intr_wakeups</key><integer>1</integer>
+<key>intr_wakeups_per_s</key><real>0.199576</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>33833</integer>
+<key>qos_background_ms_per_s</key><real>0.00675232</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>0</integer>
+<key>qos_default_ms_per_s</key><real>0</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.001209</real>
+<key>energy_impact_per_s</key><real>0.000241287</real>
+</dict>
+<dict>
+<key>pid</key><integer>653</integer>
+<key>name</key><string>lskdd</string>
+<key>started_abstime_ns</key><integer>8228449324</integer>
+<key>interval_ns</key><integer>5010622833</integer>
+<key>cputime_ns</key><integer>31375</integer>
+<key>cputime_ms_per_s</key><real>0.0062617</real>
+<key>cputime_sample_ms_per_s</key><real>0.00626518</real>
+<key>cputime_userland_ratio</key><real>0.464807</real>
+<key>intr_wakeups</key><integer>1</integer>
+<key>intr_wakeups_per_s</key><real>0.199576</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>0</integer>
+  <key>wakeups_per_s</key><real>0</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>0</integer>
+<key>qos_disabled_ms_per_s</key><real>0</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>0</integer>
+<key>qos_background_ms_per_s</key><real>0</real>
+<key>qos_utility_ns</key><integer>0</integer>
+<key>qos_utility_ms_per_s</key><real>0</real>
+<key>qos_default_ns</key><integer>31375</integer>
+<key>qos_default_ms_per_s</key><real>0.0062617</real>
+<key>qos_user_initiated_ns</key><integer>0</integer>
+<key>qos_user_initiated_ms_per_s</key><real>0</real>
+<key>qos_user_interactive_ns</key><integer>0</integer>
+<key>qos_user_interactive_ms_per_s</key><real>0</real>
+<key>energy_impact</key><real>0.000768</real>
+<key>energy_impact_per_s</key><real>0.000153274</real>
+</dict>
+</array>
+<key>all_tasks</key>
+<dict>
+<key>pid</key><integer>-2</integer>
+<key>name</key><string>ALL_TASKS</string>
+<key>started_abstime_ns</key><integer>0</integer>
+<key>interval_ns</key><integer>5007836750</integer>
+<key>cputime_ns</key><integer>175722958</integer>
+<key>cputime_ms_per_s</key><real>35.0896</real>
+<key>cputime_sample_ms_per_s</key><real>35.0896</real>
+<key>cputime_userland_ratio</key><real>0.371931</real>
+<key>intr_wakeups</key><integer>567</integer>
+<key>intr_wakeups_per_s</key><real>113.223</real>
+<key>idle_wakeups</key><integer>0</integer>
+<key>idle_wakeups_per_s</key><real>0</real>
+<key>timer_wakeups</key>
+<array>
+<dict>
+  <key>interval_ns</key><integer>2000000</integer>
+  <key>wakeups</key><integer>19</integer>
+  <key>wakeups_per_s</key><real>3.79405</real>
+</dict>
+<dict>
+  <key>interval_ns</key><integer>5000000</integer>
+  <key>wakeups</key><integer>3</integer>
+  <key>wakeups_per_s</key><real>0.599061</real>
+</dict>
+</array>
+<key>diskio_bytesread</key><integer>0</integer>
+<key>diskio_bytesread_per_s</key><real>0</real>
+<key>diskio_byteswritten</key><integer>0</integer>
+<key>diskio_byteswritten_per_s</key><real>0</real>
+<key>pageins</key><integer>0</integer>
+<key>pageins_per_s</key><real>0</real>
+<key>qos_disabled_ns</key><integer>97323416</integer>
+<key>qos_disabled_ms_per_s</key><real>19.4342</real>
+<key>qos_maintenance_ns</key><integer>0</integer>
+<key>qos_maintenance_ms_per_s</key><real>0</real>
+<key>qos_background_ns</key><integer>16593624</integer>
+<key>qos_background_ms_per_s</key><real>3.31353</real>
+<key>qos_utility_ns</key><integer>6756833</integer>
+<key>qos_utility_ms_per_s</key><real>1.34925</real>
+<key>qos_default_ns</key><integer>28035458</integer>
+<key>qos_default_ms_per_s</key><real>5.59832</real>
+<key>qos_user_initiated_ns</key><integer>21790041</integer>
+<key>qos_user_initiated_ms_per_s</key><real>4.35119</real>
+<key>qos_user_interactive_ns</key><integer>5222125</integer>
+<key>qos_user_interactive_ms_per_s</key><real>1.04279</real>
+<key>energy_impact</key><real>28.647</real>
+<key>energy_impact_per_s</key><real>5.72043</real>
+</dict>
+<key>network</key>
+<dict>
+<key>opackets</key><integer>9</integer>
+<key>opacket_rate</key><real>1.79718</real>
+<key>ipackets</key><integer>18</integer>
+<key>ipacket_rate</key><real>3.59437</real>
+<key>obytes</key><integer>1524</integer>
+<key>obyte_rate</key><real>304.323</real>
+<key>ibytes</key><integer>1551</integer>
+<key>ibyte_rate</key><real>309.715</real>
+</dict>
+<key>disk</key>
+<dict>
+<key>rops_diff</key><integer>0</integer>
+<key>rops_per_s</key><real>0</real>
+<key>wops_diff</key><integer>0</integer>
+<key>wops_per_s</key><real>0</real>
+<key>rbytes_diff</key><integer>0</integer>
+<key>rbytes_per_s</key><real>0</real>
+<key>wbytes_diff</key><integer>0</integer>
+<key>wbytes_per_s</key><real>0</real>
+</dict>
+<key>interrupts</key>
+<array>
+<dict>
+<key>cpu</key><integer>0</integer>
+<key>interrupts</key>
+<array>
+<dict>
+<key>name</key><string>IRQ</string>
+<key>events</key><integer>631</integer>
+<key>events_per_s</key><real>126.003</real>
+</dict>
+<dict>
+<key>name</key><string>IPI</string>
+<key>events</key><integer>224</integer>
+<key>events_per_s</key><real>44.7299</real>
+</dict>
+<dict>
+<key>name</key><string>TIMER</string>
+<key>events</key><integer>281</integer>
+<key>events_per_s</key><real>56.1121</real>
+</dict>
+</array>
+</dict>
+<dict>
+<key>cpu</key><integer>1</integer>
+<key>interrupts</key>
+<array>
+<dict>
+<key>name</key><string>IRQ</string>
+<key>events</key><integer>494</integer>
+<key>events_per_s</key><real>98.6454</real>
+</dict>
+<dict>
+<key>name</key><string>IPI</string>
+<key>events</key><integer>238</integer>
+<key>events_per_s</key><real>47.5255</real>
+</dict>
+<dict>
+<key>name</key><string>TIMER</string>
+<key>events</key><integer>160</integer>
+<key>events_per_s</key><real>31.9499</real>
+</dict>
+</array>
+</dict>
+<dict>
+<key>cpu</key><integer>2</integer>
+<key>interrupts</key>
+<array>
+<dict>
+<key>name</key><string>IRQ</string>
+<key>events</key><integer>251</integer>
+<key>events_per_s</key><real>50.1214</real>
+</dict>
+<dict>
+<key>name</key><string>IPI</string>
+<key>events</key><integer>190</integer>
+<key>events_per_s</key><real>37.9405</real>
+</dict>
+<dict>
+<key>name</key><string>TIMER</string>
+<key>events</key><integer>50</integer>
+<key>events_per_s</key><real>9.98435</real>
+</dict>
+</array>
+</dict>
+<dict>
+<key>cpu</key><integer>3</integer>
+<key>interrupts</key>
+<array>
+<dict>
+<key>name</key><string>IRQ</string>
+<key>events</key><integer>223</integer>
+<key>events_per_s</key><real>44.5302</real>
+</dict>
+<dict>
+<key>name</key><string>IPI</string>
+<key>events</key><integer>152</integer>
+<key>events_per_s</key><real>30.3524</real>
+</dict>
+<dict>
+<key>name</key><string>TIMER</string>
+<key>events</key><integer>56</integer>
+<key>events_per_s</key><real>11.1825</real>
+</dict>
+</array>
+</dict>
+<dict>
+<key>cpu</key><integer>4</integer>
+<key>interrupts</key>
+<array>
+<dict>
+<key>name</key><string>IRQ</string>
+<key>events</key><integer>6</integer>
+<key>events_per_s</key><real>1.19812</real>
+</dict>
+<dict>
+<key>name</key><string>IPI</string>
+<key>events</key><integer>4</integer>
+<key>events_per_s</key><real>0.798748</real>
+</dict>
+<dict>
+<key>name</key><string>TIMER</string>
+<key>events</key><integer>2</integer>
+<key>events_per_s</key><real>0.399374</real>
+</dict>
+</array>
+</dict>
+<dict>
+<key>cpu</key><integer>5</integer>
+<key>interrupts</key>
+<array>
+<dict>
+<key>name</key><string>IRQ</string>
+<key>events</key><integer>4</integer>
+<key>events_per_s</key><real>0.798748</real>
+</dict>
+<dict>
+<key>name</key><string>IPI</string>
+<key>events</key><integer>2</integer>
+<key>events_per_s</key><real>0.399374</real>
+</dict>
+<dict>
+<key>name</key><string>TIMER</string>
+<key>events</key><integer>2</integer>
+<key>events_per_s</key><real>0.399374</real>
+</dict>
+</array>
+</dict>
+<dict>
+<key>cpu</key><integer>6</integer>
+<key>interrupts</key>
+<array>
+<dict>
+<key>name</key><string>IRQ</string>
+<key>events</key><integer>1</integer>
+<key>events_per_s</key><real>0.199687</real>
+</dict>
+<dict>
+<key>name</key><string>IPI</string>
+<key>events</key><integer>1</integer>
+<key>events_per_s</key><real>0.199687</real>
+</dict>
+</array>
+</dict>
+<dict>
+<key>cpu</key><integer>7</integer>
+<key>interrupts</key>
+<array>
+<dict>
+<key>name</key><string>IRQ</string>
+<key>events</key><integer>1</integer>
+<key>events_per_s</key><real>0.199687</real>
+</dict>
+<dict>
+<key>name</key><string>IPI</string>
+<key>events</key><integer>1</integer>
+<key>events_per_s</key><real>0.199687</real>
+</dict>
+</array>
+</dict>
+</array>
+<key>processor</key>
+<dict>
+<key>clusters</key>
+<array>
+<dict>
+<key>name</key><string>E-Cluster</string>
+<key>power</key><integer>3</integer>
+<key>hw_resid_counters</key><true/>
+<key>freq_hz</key><real>9.73645e+08</real>
+<key>idle_ns</key><integer>4869645583</integer>
+<key>idle_ratio</key><real>0.970492</real>
+<key>dvfm_states</key>
+<array>
+<dict>
+<key>freq</key><integer>600</integer>
+<key>used_ns</key><integer>7981291</integer>
+<key>used_ratio</key><real>0.00159063</real>
+</dict>
+<dict>
+<key>freq</key><integer>972</integer>
+<key>used_ns</key><integer>4999505250</integer>
+<key>used_ratio</key><real>0.996372</real>
+</dict>
+<dict>
+<key>freq</key><integer>1332</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>1704</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>2064</integer>
+<key>used_ns</key><integer>10220583</integer>
+<key>used_ratio</key><real>0.0020369</real>
+</dict>
+</array>
+<key>cpus</key>
+<array>
+<dict>
+<key>cpu</key><integer>0</integer>
+<key>freq_hz</key><real>9.85959e+08</real>
+<key>idle_ns</key><integer>4933085458</integer>
+<key>idle_ratio</key><real>0.98306</real>
+<key>dvfm_states</key>
+<array>
+<dict>
+<key>freq</key><integer>600</integer>
+<key>used_ns</key><integer>188625</integer>
+<key>used_ratio</key><real>3.7589e-05</real>
+</dict>
+<dict>
+<key>freq</key><integer>972</integer>
+<key>used_ns</key><integer>83666375</integer>
+<key>used_ratio</key><real>0.016673</real>
+</dict>
+<dict>
+<key>freq</key><integer>1332</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>1704</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>2064</integer>
+<key>used_ns</key><integer>1149875</integer>
+<key>used_ratio</key><real>0.000229146</real>
+</dict>
+</array>
+</dict>
+<dict>
+<key>cpu</key><integer>1</integer>
+<key>freq_hz</key><real>9.71918e+08</real>
+<key>idle_ns</key><integer>4958066083</integer>
+<key>idle_ratio</key><real>0.988038</real>
+<key>dvfm_states</key>
+<array>
+<dict>
+<key>freq</key><integer>600</integer>
+<key>used_ns</key><integer>45416</integer>
+<key>used_ratio</key><real>9.05059e-06</real>
+</dict>
+<dict>
+<key>freq</key><integer>972</integer>
+<key>used_ns</key><integer>59969500</integer>
+<key>used_ratio</key><real>0.0119507</real>
+</dict>
+<dict>
+<key>freq</key><integer>1332</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>1704</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>2064</integer>
+<key>used_ns</key><integer>10291</integer>
+<key>used_ratio</key><real>2.05091e-06</real>
+</dict>
+</array>
+</dict>
+<dict>
+<key>cpu</key><integer>2</integer>
+<key>freq_hz</key><real>9.66724e+08</real>
+<key>idle_ns</key><integer>4995610625</integer>
+<key>idle_ratio</key><real>0.99552</real>
+<key>dvfm_states</key>
+<array>
+<dict>
+<key>freq</key><integer>600</integer>
+<key>used_ns</key><integer>319625</integer>
+<key>used_ratio</key><real>6.36945e-05</real>
+</dict>
+<dict>
+<key>freq</key><integer>972</integer>
+<key>used_ns</key><integer>22161916</integer>
+<key>used_ratio</key><real>0.0044164</real>
+</dict>
+<dict>
+<key>freq</key><integer>1332</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>1704</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>2064</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+</array>
+</dict>
+<dict>
+<key>cpu</key><integer>3</integer>
+<key>freq_hz</key><real>9.69851e+08</real>
+<key>idle_ns</key><integer>4995785416</integer>
+<key>idle_ratio</key><real>0.995555</real>
+<key>dvfm_states</key>
+<array>
+<dict>
+<key>freq</key><integer>600</integer>
+<key>used_ns</key><integer>132291</integer>
+<key>used_ratio</key><real>2.63629e-05</real>
+</dict>
+<dict>
+<key>freq</key><integer>972</integer>
+<key>used_ns</key><integer>22174416</integer>
+<key>used_ratio</key><real>0.00441889</real>
+</dict>
+<dict>
+<key>freq</key><integer>1332</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>1704</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>2064</integer>
+<key>used_ns</key><integer>916</integer>
+<key>used_ratio</key><real>1.82672e-07</real>
+</dict>
+</array>
+</dict>
+</array>
+</dict>
+<dict>
+<key>name</key><string>P-Cluster</string>
+<key>power</key><integer>2</integer>
+<key>hw_resid_counters</key><true/>
+<key>freq_hz</key><real>6.07072e+08</real>
+<key>idle_ns</key><integer>5011758791</integer>
+<key>idle_ratio</key><real>0.998815</real>
+<key>dvfm_states</key>
+<array>
+<dict>
+<key>freq</key><integer>600</integer>
+<key>used_ns</key><integer>4996384250</integer>
+<key>used_ratio</key><real>0.995751</real>
+</dict>
+<dict>
+<key>freq</key><integer>828</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>1056</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>1284</integer>
+<key>used_ns</key><integer>2679916</integer>
+<key>used_ratio</key><real>0.000534092</real>
+</dict>
+<dict>
+<key>freq</key><integer>1500</integer>
+<key>used_ns</key><integer>7786375</integer>
+<key>used_ratio</key><real>0.00155178</real>
+</dict>
+<dict>
+<key>freq</key><integer>1728</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>1956</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>2184</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>2388</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>2592</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>2772</integer>
+<key>used_ns</key><integer>2016208</integer>
+<key>used_ratio</key><real>0.000401819</real>
+</dict>
+<dict>
+<key>freq</key><integer>2988</integer>
+<key>used_ns</key><integer>1983000</integer>
+<key>used_ratio</key><real>0.000395201</real>
+</dict>
+<dict>
+<key>freq</key><integer>3096</integer>
+<key>used_ns</key><integer>1962083</integer>
+<key>used_ratio</key><real>0.000391032</real>
+</dict>
+<dict>
+<key>freq</key><integer>3144</integer>
+<key>used_ns</key><integer>2025166</integer>
+<key>used_ratio</key><real>0.000403604</real>
+</dict>
+<dict>
+<key>freq</key><integer>3204</integer>
+<key>used_ns</key><integer>2865541</integer>
+<key>used_ratio</key><real>0.000571086</real>
+</dict>
+</array>
+<key>cpus</key>
+<array>
+<dict>
+<key>cpu</key><integer>4</integer>
+<key>freq_hz</key><real>1.75776e+09</real>
+<key>idle_ns</key><integer>5012844708</integer>
+<key>idle_ratio</key><real>0.998949</real>
+<key>dvfm_states</key>
+<array>
+<dict>
+<key>freq</key><integer>600</integer>
+<key>used_ns</key><integer>127875</integer>
+<key>used_ratio</key><real>2.54827e-05</real>
+</dict>
+<dict>
+<key>freq</key><integer>828</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>1056</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>1284</integer>
+<key>used_ns</key><integer>3593541</integer>
+<key>used_ratio</key><real>0.000716113</real>
+</dict>
+<dict>
+<key>freq</key><integer>1500</integer>
+<key>used_ns</key><integer>197916</integer>
+<key>used_ratio</key><real>3.94404e-05</real>
+</dict>
+<dict>
+<key>freq</key><integer>1728</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>1956</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>2184</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>2388</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>2592</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>2772</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>2988</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>3096</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>3144</integer>
+<key>used_ns</key><integer>951541</integer>
+<key>used_ratio</key><real>0.000189621</real>
+</dict>
+<dict>
+<key>freq</key><integer>3204</integer>
+<key>used_ns</key><integer>402625</integer>
+<key>used_ratio</key><real>8.02343e-05</real>
+</dict>
+</array>
+</dict>
+<dict>
+<key>cpu</key><integer>5</integer>
+<key>freq_hz</key><real>1.12501e+09</real>
+<key>idle_ns</key><integer>5018004500</integer>
+<key>idle_ratio</key><real>0.999977</real>
+<key>dvfm_states</key>
+<array>
+<dict>
+<key>freq</key><integer>600</integer>
+<key>used_ns</key><integer>48125</integer>
+<key>used_ratio</key><real>9.59024e-06</real>
+</dict>
+<dict>
+<key>freq</key><integer>828</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>1056</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>1284</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>1500</integer>
+<key>used_ns</key><integer>67375</integer>
+<key>used_ratio</key><real>1.34263e-05</real>
+</dict>
+<dict>
+<key>freq</key><integer>1728</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>1956</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>2184</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>2388</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>2592</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>2772</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>2988</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>3096</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>3144</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>3204</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+</array>
+</dict>
+<dict>
+<key>cpu</key><integer>6</integer>
+<key>freq_hz</key><real>3.19383e+09</real>
+<key>idle_ns</key><integer>5017124458</integer>
+<key>idle_ratio</key><real>0.999801</real>
+<key>dvfm_states</key>
+<array>
+<dict>
+<key>freq</key><integer>600</integer>
+<key>used_ns</key><integer>3916</integer>
+<key>used_ratio</key><real>7.80505e-07</real>
+</dict>
+<dict>
+<key>freq</key><integer>828</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>1056</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>1284</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>1500</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>1728</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>1956</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>2184</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>2388</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>2592</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>2772</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>2988</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>3096</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>3144</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>3204</integer>
+<key>used_ns</key><integer>992250</integer>
+<key>used_ratio</key><real>0.000197733</real>
+</dict>
+</array>
+</dict>
+<dict>
+<key>cpu</key><integer>7</integer>
+<key>freq_hz</key><real>6.00004e+08</real>
+<key>idle_ns</key><integer>5018122083</integer>
+<key>idle_ratio</key><real>0.999999</real>
+<key>dvfm_states</key>
+<array>
+<dict>
+<key>freq</key><integer>600</integer>
+<key>used_ns</key><integer>4250</integer>
+<key>used_ratio</key><real>8.4693e-07</real>
+</dict>
+<dict>
+<key>freq</key><integer>828</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>1056</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>1284</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>1500</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>1728</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>1956</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>2184</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>2388</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>2592</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>2772</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>2988</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>3096</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>3144</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>3204</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+</array>
+</dict>
+</array>
+</dict>
+</array>
+<key>ane_energy</key>
+<integer>0</integer>
+<key>dram_energy</key>
+<integer>8</integer>
+<key>cpu_energy</key>
+<integer>21</integer>
+<key>gpu_energy</key>
+<integer>1</integer>
+<key>package_energy</key>
+<integer>95</integer>
+</dict>
+<key>gpu</key>
+<dict>
+<key>freq_hz</key><real>396</real>
+<key>idle_ns</key><integer>5011746333</integer>
+<key>idle_ratio</key><real>0.998368</real>
+<key>dvfm_states</key>
+<array>
+<dict>
+<key>freq</key><integer>396</integer>
+<key>used_ns</key><integer>8193874</integer>
+<key>used_ratio</key><real>0.00163227</real>
+</dict>
+<dict>
+<key>freq</key><integer>528</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>720</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>924</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>1128</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>1278</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+</array>
+<key>requested_freq</key>
+<array>
+<dict>
+<key>freq</key><integer>396</integer>
+<key>used_ns</key><integer>8193874</integer>
+<key>used_ratio</key><real>0.00163227</real>
+</dict>
+<dict>
+<key>freq</key><integer>528</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>720</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>924</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>1128</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+<dict>
+<key>freq</key><integer>1278</integer>
+<key>used_ns</key><integer>0</integer>
+<key>used_ratio</key><real>0</real>
+</dict>
+</array>
+<key>idle_ns</key><integer>5011746333</integer>
+<key>idle_ratio</key><real>0.998368</real>
+<key>gpu_energy</key><integer>1</integer>
+</dict>
+</dict>
+</plist>

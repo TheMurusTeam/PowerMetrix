@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F3FFE56272C89A000C5E006 /* XPCHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFE55272C89A000C5E006 /* XPCHelper.swift */; };
+		3F3FFE5E272C8CE700C5E006 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFE5D272C8CE700C5E006 /* main.swift */; };
+		3F643664272CB6AB0038F3E4 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F643663272CB6AB0038F3E4 /* Helper.swift */; };
+		3F643666272CB6D60038F3E4 /* XPC Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F643665272CB6D60038F3E4 /* XPC Protocols.swift */; };
+		3F643667272CB6D60038F3E4 /* XPC Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F643665272CB6D60038F3E4 /* XPC Protocols.swift */; };
+		3F643669272CB9000038F3E4 /* it.murus.powermetrix.helper in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3F3FFE5B272C8CE700C5E006 /* it.murus.powermetrix.helper */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		3F64366C272CBD540038F3E4 /* Metrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F64366B272CBD540038F3E4 /* Metrics.swift */; };
+		3F643670272CC2490038F3E4 /* XPCauditToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F64366F272CC2490038F3E4 /* XPCauditToken.m */; };
+		3F643672272CD4440038F3E4 /* Verify XPC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F643671272CD4440038F3E4 /* Verify XPC.swift */; };
+		3F643675272DA2190038F3E4 /* Metrics Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F643674272DA2190038F3E4 /* Metrics Store.swift */; };
+		3F643678272DA3400038F3E4 /* PMMainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F643676272DA3400038F3E4 /* PMMainWindowController.swift */; };
+		3F643679272DA3400038F3E4 /* PMMainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F643677272DA3400038F3E4 /* PMMainWindowController.xib */; };
+		3F64367B272DB9960038F3E4 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F64367A272DB9960038F3E4 /* Graph.swift */; };
+		3FD6ABD2266C0B4F0012B57E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD6ABD1266C0B4F0012B57E /* AppDelegate.swift */; };
+		3FD6ABD4266C0B500012B57E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FD6ABD3266C0B500012B57E /* Assets.xcassets */; };
+		3FD6ABD7266C0B500012B57E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FD6ABD5266C0B500012B57E /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3F3FFE59272C8CE700C5E006 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		3F643668272CB8F50038F3E4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LaunchServices;
+			dstSubfolderSpec = 1;
+			files = (
+				3F643669272CB9000038F3E4 /* it.murus.powermetrix.helper in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3F24621B277516ED00BA3181 /* test-m1max.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "test-m1max.plist"; sourceTree = "<group>"; };
+		3F3FFE55272C89A000C5E006 /* XPCHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XPCHelper.swift; sourceTree = "<group>"; };
+		3F3FFE5B272C8CE700C5E006 /* it.murus.powermetrix.helper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = it.murus.powermetrix.helper; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3FFE5D272C8CE700C5E006 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		3F643661272CB5E90038F3E4 /* it_murus_powermetrix_helper-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "it_murus_powermetrix_helper-Info.plist"; sourceTree = "<group>"; };
+		3F643662272CB5E90038F3E4 /* it_murus_powermetrix_helper-Launchd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "it_murus_powermetrix_helper-Launchd.plist"; sourceTree = "<group>"; };
+		3F643663272CB6AB0038F3E4 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		3F643665272CB6D60038F3E4 /* XPC Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XPC Protocols.swift"; sourceTree = "<group>"; };
+		3F64366B272CBD540038F3E4 /* Metrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metrics.swift; sourceTree = "<group>"; };
+		3F64366D272CC2480038F3E4 /* it.murus.powermetrix.helper-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "it.murus.powermetrix.helper-Bridging-Header.h"; sourceTree = "<group>"; };
+		3F64366E272CC2490038F3E4 /* XPCauditToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPCauditToken.h; sourceTree = "<group>"; };
+		3F64366F272CC2490038F3E4 /* XPCauditToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPCauditToken.m; sourceTree = "<group>"; };
+		3F643671272CD4440038F3E4 /* Verify XPC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Verify XPC.swift"; sourceTree = "<group>"; };
+		3F643674272DA2190038F3E4 /* Metrics Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Metrics Store.swift"; sourceTree = "<group>"; };
+		3F643676272DA3400038F3E4 /* PMMainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMMainWindowController.swift; sourceTree = "<group>"; };
+		3F643677272DA3400038F3E4 /* PMMainWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PMMainWindowController.xib; sourceTree = "<group>"; };
+		3F64367A272DB9960038F3E4 /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		3FD6ABCE266C0B4F0012B57E /* PowerMetrix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PowerMetrix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FD6ABD1266C0B4F0012B57E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FD6ABD3266C0B500012B57E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FD6ABD6266C0B500012B57E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3FD6ABD8266C0B500012B57E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FD6ABD9266C0B500012B57E /* PowerMetrix.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PowerMetrix.entitlements; sourceTree = "<group>"; };
+		3FD6ABE1266C150A0012B57E /* test-m1.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "test-m1.plist"; sourceTree = "<group>"; };
+		3FD6ABE2266D35310012B57E /* test-intel.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "test-intel.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F3FFE58272C8CE700C5E006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FD6ABCB266C0B4F0012B57E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F3FFE5C272C8CE700C5E006 /* it.murus.powermetrix.helper */ = {
+			isa = PBXGroup;
+			children = (
+				3F643661272CB5E90038F3E4 /* it_murus_powermetrix_helper-Info.plist */,
+				3F643662272CB5E90038F3E4 /* it_murus_powermetrix_helper-Launchd.plist */,
+				3F64366E272CC2490038F3E4 /* XPCauditToken.h */,
+				3F64366F272CC2490038F3E4 /* XPCauditToken.m */,
+				3F3FFE5D272C8CE700C5E006 /* main.swift */,
+				3F643663272CB6AB0038F3E4 /* Helper.swift */,
+				3F643671272CD4440038F3E4 /* Verify XPC.swift */,
+				3F64366B272CBD540038F3E4 /* Metrics.swift */,
+				3F64366D272CC2480038F3E4 /* it.murus.powermetrix.helper-Bridging-Header.h */,
+			);
+			path = it.murus.powermetrix.helper;
+			sourceTree = "<group>";
+		};
+		3F643673272DA1FE0038F3E4 /* Metrics */ = {
+			isa = PBXGroup;
+			children = (
+				3F643674272DA2190038F3E4 /* Metrics Store.swift */,
+				3F643676272DA3400038F3E4 /* PMMainWindowController.swift */,
+				3F643677272DA3400038F3E4 /* PMMainWindowController.xib */,
+				3F64367A272DB9960038F3E4 /* Graph.swift */,
+			);
+			path = Metrics;
+			sourceTree = "<group>";
+		};
+		3FD6ABC5266C0B4F0012B57E = {
+			isa = PBXGroup;
+			children = (
+				3F643665272CB6D60038F3E4 /* XPC Protocols.swift */,
+				3FD6ABE2266D35310012B57E /* test-intel.plist */,
+				3FD6ABE1266C150A0012B57E /* test-m1.plist */,
+				3F24621B277516ED00BA3181 /* test-m1max.plist */,
+				3FD6ABD0266C0B4F0012B57E /* PowerMetrix */,
+				3F3FFE5C272C8CE700C5E006 /* it.murus.powermetrix.helper */,
+				3FD6ABCF266C0B4F0012B57E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FD6ABCF266C0B4F0012B57E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FD6ABCE266C0B4F0012B57E /* PowerMetrix.app */,
+				3F3FFE5B272C8CE700C5E006 /* it.murus.powermetrix.helper */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FD6ABD0266C0B4F0012B57E /* PowerMetrix */ = {
+			isa = PBXGroup;
+			children = (
+				3F643673272DA1FE0038F3E4 /* Metrics */,
+				3FD6ABD1266C0B4F0012B57E /* AppDelegate.swift */,
+				3F3FFE55272C89A000C5E006 /* XPCHelper.swift */,
+				3FD6ABD3266C0B500012B57E /* Assets.xcassets */,
+				3FD6ABD5266C0B500012B57E /* MainMenu.xib */,
+				3FD6ABD8266C0B500012B57E /* Info.plist */,
+				3FD6ABD9266C0B500012B57E /* PowerMetrix.entitlements */,
+			);
+			path = PowerMetrix;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F3FFE5A272C8CE700C5E006 /* it.murus.powermetrix.helper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F3FFE5F272C8CE700C5E006 /* Build configuration list for PBXNativeTarget "it.murus.powermetrix.helper" */;
+			buildPhases = (
+				3F3FFE57272C8CE700C5E006 /* Sources */,
+				3F3FFE58272C8CE700C5E006 /* Frameworks */,
+				3F3FFE59272C8CE700C5E006 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = it.murus.powermetrix.helper;
+			productName = it.murus.powermetrix.helper;
+			productReference = 3F3FFE5B272C8CE700C5E006 /* it.murus.powermetrix.helper */;
+			productType = "com.apple.product-type.tool";
+		};
+		3FD6ABCD266C0B4F0012B57E /* PowerMetrix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FD6ABDC266C0B500012B57E /* Build configuration list for PBXNativeTarget "PowerMetrix" */;
+			buildPhases = (
+				3FD6ABCA266C0B4F0012B57E /* Sources */,
+				3FD6ABCB266C0B4F0012B57E /* Frameworks */,
+				3FD6ABCC266C0B4F0012B57E /* Resources */,
+				3F643668272CB8F50038F3E4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PowerMetrix;
+			productName = PowerMetrix;
+			productReference = 3FD6ABCE266C0B4F0012B57E /* PowerMetrix.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FD6ABC6266C0B4F0012B57E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					3F3FFE5A272C8CE700C5E006 = {
+						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
+					};
+					3FD6ABCD266C0B4F0012B57E = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 3FD6ABC9266C0B4F0012B57E /* Build configuration list for PBXProject "PowerMetrix" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FD6ABC5266C0B4F0012B57E;
+			productRefGroup = 3FD6ABCF266C0B4F0012B57E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FD6ABCD266C0B4F0012B57E /* PowerMetrix */,
+				3F3FFE5A272C8CE700C5E006 /* it.murus.powermetrix.helper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FD6ABCC266C0B4F0012B57E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FD6ABD4266C0B500012B57E /* Assets.xcassets in Resources */,
+				3FD6ABD7266C0B500012B57E /* MainMenu.xib in Resources */,
+				3F643679272DA3400038F3E4 /* PMMainWindowController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F3FFE57272C8CE700C5E006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F643667272CB6D60038F3E4 /* XPC Protocols.swift in Sources */,
+				3F3FFE5E272C8CE700C5E006 /* main.swift in Sources */,
+				3F643672272CD4440038F3E4 /* Verify XPC.swift in Sources */,
+				3F64366C272CBD540038F3E4 /* Metrics.swift in Sources */,
+				3F643664272CB6AB0038F3E4 /* Helper.swift in Sources */,
+				3F643670272CC2490038F3E4 /* XPCauditToken.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FD6ABCA266C0B4F0012B57E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F64367B272DB9960038F3E4 /* Graph.swift in Sources */,
+				3F3FFE56272C89A000C5E006 /* XPCHelper.swift in Sources */,
+				3F643678272DA3400038F3E4 /* PMMainWindowController.swift in Sources */,
+				3F643666272CB6D60038F3E4 /* XPC Protocols.swift in Sources */,
+				3F643675272DA2190038F3E4 /* Metrics Store.swift in Sources */,
+				3FD6ABD2266C0B4F0012B57E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3FD6ABD5266C0B500012B57E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FD6ABD6266C0B500012B57E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F3FFE60272C8CE700C5E006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 209;
+				DEVELOPMENT_TEAM = RNLG254GCK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "it.murus.powermetrix.helper/it_murus_powermetrix_helper-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				OTHER_LDFLAGS = (
+					"-sectcreate",
+					__TEXT,
+					__info_plist,
+					"\"$(SRCROOT)/it.murus.powermetrix.helper/it_murus_powermetrix_helper-Info.plist\"",
+					"-sectcreate",
+					__TEXT,
+					__launchd_plist,
+					"\"$(SRCROOT)/it.murus.powermetrix.helper/it_murus_powermetrix_helper-Launchd.plist\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = it.murus.powermetrix.helper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "it.murus.powermetrix.helper/it.murus.powermetrix.helper-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3F3FFE61272C8CE700C5E006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 209;
+				DEVELOPMENT_TEAM = RNLG254GCK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "it.murus.powermetrix.helper/it_murus_powermetrix_helper-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				OTHER_LDFLAGS = (
+					"-sectcreate",
+					__TEXT,
+					__info_plist,
+					"\"$(SRCROOT)/it.murus.powermetrix.helper/it_murus_powermetrix_helper-Info.plist\"",
+					"-sectcreate",
+					__TEXT,
+					__launchd_plist,
+					"\"$(SRCROOT)/it.murus.powermetrix.helper/it_murus_powermetrix_helper-Launchd.plist\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = it.murus.powermetrix.helper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "it.murus.powermetrix.helper/it.murus.powermetrix.helper-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3FD6ABDA266C0B500012B57E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FD6ABDB266C0B500012B57E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3FD6ABDD266C0B500012B57E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PowerMetrix/PowerMetrix.entitlements;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 29;
+				DEVELOPMENT_TEAM = RNLG254GCK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = PowerMetrix/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = "1.0 beta";
+				PRODUCT_BUNDLE_IDENTIFIER = it.murus.PowerMetrix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3FD6ABDE266C0B500012B57E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PowerMetrix/PowerMetrix.entitlements;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 29;
+				DEVELOPMENT_TEAM = RNLG254GCK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = PowerMetrix/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = "1.0 beta";
+				PRODUCT_BUNDLE_IDENTIFIER = it.murus.PowerMetrix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F3FFE5F272C8CE700C5E006 /* Build configuration list for PBXNativeTarget "it.murus.powermetrix.helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3FFE60272C8CE700C5E006 /* Debug */,
+				3F3FFE61272C8CE700C5E006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FD6ABC9266C0B4F0012B57E /* Build configuration list for PBXProject "PowerMetrix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FD6ABDA266C0B500012B57E /* Debug */,
+				3FD6ABDB266C0B500012B57E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FD6ABDC266C0B500012B57E /* Build configuration list for PBXNativeTarget "PowerMetrix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FD6ABDD266C0B500012B57E /* Debug */,
+				3FD6ABDE266C0B500012B57E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FD6ABC6266C0B4F0012B57E /* Project object */;
+}
