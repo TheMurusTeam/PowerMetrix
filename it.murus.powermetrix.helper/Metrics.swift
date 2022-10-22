@@ -22,7 +22,7 @@ import Foundation
 func runPowermetrics() {
     let task = Process()
     task.launchPath = "/usr/bin/powermetrics"       // shell command
-    task.arguments = ["-s","cpu_power,gpu_power,bandwidth",   // samplers
+    task.arguments = ["-s","cpu_power,gpu_power",   // samplers
                       "-i","1000",                  // frequency (ms)
                       "-f","plist"                  // output format
     ]
