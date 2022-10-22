@@ -99,8 +99,12 @@ class PMMainWindowController: NSWindowController, NSWindowDelegate {
             for metrix in metrics {
                 
                 // PACKAGE energy
+                var totalEnergyKey = "package_energy"
+                if #available(OSX 13.0, *) {
+                    totalEnergyKey = "combined_power"
+                }
                 let processor = metrix["processor"] as? [String:AnyObject]
-                let package_energy = ((Double(truncating: processor?["package_energy"] as? NSNumber ?? 0) / 1000).rounded(toPlaces: 1))
+                let package_energy = ((Double(truncating: processor?[totalEnergyKey] as? NSNumber ?? 0) / 1000).rounded(toPlaces: 1))
                 arrayPackage.append(package_energy)
                 
                 // CPU energy

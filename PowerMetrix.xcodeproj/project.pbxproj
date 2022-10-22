@@ -65,6 +65,7 @@
 		3F643676272DA3400038F3E4 /* PMMainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PMMainWindowController.swift; sourceTree = "<group>"; };
 		3F643677272DA3400038F3E4 /* PMMainWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PMMainWindowController.xib; sourceTree = "<group>"; };
 		3F64367A272DB9960038F3E4 /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		3FB5CCD32904B1EB00E5D983 /* m1-max.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "m1-max.plist"; sourceTree = "<group>"; };
 		3FD6ABCE266C0B4F0012B57E /* PowerMetrix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PowerMetrix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FD6ABD1266C0B4F0012B57E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FD6ABD3266C0B500012B57E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -120,13 +121,38 @@
 			path = Metrics;
 			sourceTree = "<group>";
 		};
-		3FD6ABC5266C0B4F0012B57E = {
+		3FB5CCD02904B1BE00E5D983 /* examples */ = {
 			isa = PBXGroup;
 			children = (
-				3F643665272CB6D60038F3E4 /* XPC Protocols.swift */,
+				3FB5CCD22904B1D300E5D983 /* Ventura */,
+				3FB5CCD12904B1C700E5D983 /* Monterey */,
+			);
+			path = examples;
+			sourceTree = "<group>";
+		};
+		3FB5CCD12904B1C700E5D983 /* Monterey */ = {
+			isa = PBXGroup;
+			children = (
 				3FD6ABE2266D35310012B57E /* test-intel.plist */,
 				3FD6ABE1266C150A0012B57E /* test-m1.plist */,
 				3F24621B277516ED00BA3181 /* test-m1max.plist */,
+			);
+			path = Monterey;
+			sourceTree = "<group>";
+		};
+		3FB5CCD22904B1D300E5D983 /* Ventura */ = {
+			isa = PBXGroup;
+			children = (
+				3FB5CCD32904B1EB00E5D983 /* m1-max.plist */,
+			);
+			path = Ventura;
+			sourceTree = "<group>";
+		};
+		3FD6ABC5266C0B4F0012B57E = {
+			isa = PBXGroup;
+			children = (
+				3FB5CCD02904B1BE00E5D983 /* examples */,
+				3F643665272CB6D60038F3E4 /* XPC Protocols.swift */,
 				3FD6ABD0266C0B4F0012B57E /* PowerMetrix */,
 				3F3FFE5C272C8CE700C5E006 /* it.murus.powermetrix.helper */,
 				3FD6ABCF266C0B4F0012B57E /* Products */,
@@ -486,7 +512,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 30;
+				CURRENT_PROJECT_VERSION = 31;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = RNLG254GCK;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -514,7 +540,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 30;
+				CURRENT_PROJECT_VERSION = 31;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = RNLG254GCK;
 				ENABLE_HARDENED_RUNTIME = YES;
