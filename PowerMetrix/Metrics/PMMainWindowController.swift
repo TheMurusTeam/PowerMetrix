@@ -58,12 +58,18 @@ class PMMainWindowController: NSWindowController, NSWindowDelegate {
             
             // CURRENT VALUES
             
+            var totalEnergyKey = "package_energy"
+            if #available(OSX 13.0, *) {
+                totalEnergyKey = "combined_power"
+            }
+            
+            
             if let metrix = metrics.last {
                 
                 // ENERGY
                 
                 let processor = metrix["processor"] as? [String:AnyObject]
-                let value = ((Double(truncating: processor?["package_energy"] as? NSNumber ?? 0) / 1000).rounded(toPlaces: 1))
+                let value = ((Double(truncating: processor?[totalEnergyKey] as? NSNumber ?? 0) / 1000).rounded(toPlaces: 1))
                 self.label_currentPackageEnergy.stringValue = "\(value) W"
                 
                 // number formatter
@@ -99,10 +105,6 @@ class PMMainWindowController: NSWindowController, NSWindowDelegate {
             for metrix in metrics {
                 
                 // PACKAGE energy
-                var totalEnergyKey = "package_energy"
-                if #available(OSX 13.0, *) {
-                    totalEnergyKey = "combined_power"
-                }
                 let processor = metrix["processor"] as? [String:AnyObject]
                 let package_energy = ((Double(truncating: processor?[totalEnergyKey] as? NSNumber ?? 0) / 1000).rounded(toPlaces: 1))
                 arrayPackage.append(package_energy)
@@ -201,59 +203,6 @@ class PMMainWindowController: NSWindowController, NSWindowDelegate {
         self.aboutWindow.center()
     }
     
-    
-    
-    
-    
-    
-    
-    
-    
-    /*
-    /// DEBUG
-    
-    func test(metrix:[String:AnyObject]) {
-        DispatchQueue.global().async {
-            let hw_model = metrix["hw_model"] as? String ?? "Unknown Mac"
-            let gpu = metrix["gpu"] as? [String:AnyObject]
-            let gpu_freq_hz = gpu?["freq_hz"] as? NSNumber ?? 0
-            let gpu_gpu_energy = gpu?["gpu_energy"] as? NSNumber ?? 0
-            let processor = metrix["processor"] as? [String:AnyObject]
-            let processor_package_energy = processor?["package_energy"] as? NSNumber ?? 0
-            let cpu_cpu_energy = processor?["cpu_energy"] as? NSNumber ?? 0
-            let cpu_dram_energy = processor?["dram_energy"] as? NSNumber ?? 0
-            
-            print(hw_model)
-            print("Package energy: \(processor_package_energy) mW")
-            print("GPU frequency: \(gpu_freq_hz) Mhz")
-            print("GPU energy: \(gpu_gpu_energy) mW")
-            print("DRAM energy: \(cpu_dram_energy) mW")
-            print("CPU energy: \(cpu_cpu_energy) mW")
-            
-            
-            
-            let processor_clusters = processor?["clusters"] as? [[String:AnyObject]] ?? NSArray() as! [[String : AnyObject]]
-            for cluster in processor_clusters {
-                // clusters
-                let cluster_name = cluster["name"] as? String ?? String()
-                let cluster_cpus = cluster["cpus"] as? NSArray ?? NSArray()
-                let cluster_freq_hz = ((cluster["freq_hz"] as? Int ?? 0)) / 1000000
-                let cluster_power = (cluster["power"]) as? NSNumber ?? 0
-                print("\(cluster_name) (\(cluster_cpus.count) CPUs) power: \(cluster_power) mW, HW active frequency: \(cluster_freq_hz) Mhz")
-                // cpus
-                for cpu in cluster_cpus {
-                    if let cpudict = cpu as? [String:AnyObject] {
-                        print("- \(cluster_name) CPU \(cpudict["cpu"] as? NSNumber ?? -1) frequency: \((cpudict["freq_hz"] as? Int ?? 0) / 1000000)")
-                    }
-                }
-                
-            }
-            
-            
-            
-        }
-    }
-    */
     
     
     
