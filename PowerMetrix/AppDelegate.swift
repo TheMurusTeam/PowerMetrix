@@ -221,13 +221,13 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
             } else {
                 // SUCCESS
                 NSLog("it.murus.powermetrix.helper installed successfully")
-                
-               /* (xpccontroller.helperConnection()?.synchronousRemoteObjectProxyWithErrorHandler() { error -> Void in print("XPC error: %@", error) } as? PMHelperProtocol)?.getVersion() { build in
-                    NSLog("it.murus.powermetrix.helper build \(build) is running")
-                }*/
-                
-                DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(2)) {
-                    self.startPowermetrix()
+                // quit
+                DispatchQueue.main.async {
+                    let alert = NSAlert()
+                    alert.messageText = "Done"
+                    alert.informativeText = "PowerMetrix helper installed successfully. PowerMetrix will now quit.\n\nPlease restart PowerMetrix."
+                    alert.runModal()
+                    NSApplication.shared.terminate(nil)
                 }
                 
             }
@@ -243,8 +243,13 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
     
     // UPDATE MENULET LABEL
     func displayMenuletMetrics(metrix:[String:AnyObject]) {
+        var totalEnergyKey = "package_energy"
+        if #available(OSX 13.0, *) {
+            totalEnergyKey = "combined_power"
+        }
+        
         let processor = metrix["processor"] as? [String:AnyObject]
-        self.label_menulet.stringValue = "\((Double(truncating: processor?["package_energy"] as? NSNumber ?? 0) / 1000).rounded(toPlaces: 1)) W"
+        self.label_menulet.stringValue = "\((Double(truncating: processor?[totalEnergyKey] as? NSNumber ?? 0) / 1000).rounded(toPlaces: 1)) W"
     }
     
     

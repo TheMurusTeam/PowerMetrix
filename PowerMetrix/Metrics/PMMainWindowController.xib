@@ -189,14 +189,14 @@
                         <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="m1" id="bnu-Xv-yzj"/>
                     </imageView>
                     <popUpButton fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h2l-iO-zb3">
-                        <rect key="frame" x="283" y="0.0" width="32" height="28"/>
+                        <rect key="frame" x="283" y="5" width="29" height="24"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <popUpButtonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="left" lineBreakMode="truncatingTail" state="on" imageScaling="proportionallyDown" inset="2" pullsDown="YES" arrowPosition="noArrow" id="MXe-i6-dEP">
+                        <popUpButtonCell key="cell" type="square" bezelStyle="shadowlessSquare" alignment="left" lineBreakMode="truncatingTail" state="on" imageScaling="proportionallyUpOrDown" inset="2" pullsDown="YES" arrowPosition="noArrow" id="MXe-i6-dEP">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="menu"/>
                             <menu key="menu" id="o25-Hw-XvR">
                                 <items>
-                                    <menuItem state="on" image="gearshape.fill" catalog="system" hidden="YES" id="QBt-MI-8Sn"/>
+                                    <menuItem state="on" image="NSActionTemplate" hidden="YES" id="QBt-MI-8Sn"/>
                                     <menuItem title="About Powermetrix" id="W04-H7-hsp">
                                         <connections>
                                             <action selector="clickAbout:" target="-2" id="tF7-pa-Cxe"/>
@@ -288,7 +288,7 @@ https://github.com/TheMurusTeam/PowerMetrix</string>
         </window>
     </objects>
     <resources>
-        <image name="gearshape.fill" catalog="system" width="16" height="16"/>
+        <image name="NSActionTemplate" width="15" height="15"/>
         <image name="m1" width="128" height="128"/>
         <image name="powermetrix" width="512" height="512"/>
     </resources>
